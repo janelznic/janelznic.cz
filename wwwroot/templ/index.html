@@ -1,0 +1,58 @@
+<?php include '_doctype.html';?>
+<html>
+<head>
+	<?php include '_common.html';?>
+	<title><?php echo $dict["title"];?></title>
+</head>
+
+<body class="page" id="index">
+	<!-- Preloader -->
+	<?php if ($dict['preloader'] == 1):?>
+		<?php include '_preloader.html';?>
+	<?php endif;?>
+
+	<!-- Header -->
+	<?php include '_head.html';?>
+
+	<div class="container" itemscope="itemscope" itemtype="http://schema.org/Person">
+		<?php include '__intro.html';?>
+		<?php include '__quotation.html';?>
+		<?php include '__about.html';?>
+		<?php include '__portfolio.html';?>
+		<?php include '__refs.html';?>
+		<?php include '__contact.html';?>
+
+		<!-- Footer -->
+		<?php include '_foot.html';?>
+
+		<!-- Flash messages -->
+		<div class="flash-message" id="flashMessage">
+			<p></p>
+			<span class="fa fa-close"></span>
+		</div>
+
+		<!-- Pop up -->
+		<div class="popup-bg" id="popUpBg"></div>
+		<div class="popup" id="popUpCont">
+			<p class="close-button"><a href="#" id="closePopUp"><span class="fa fa-close"></span></a></p>
+			<h4></h4>
+			<p class="img"><img id="popUpImg" width="640" height="480" src="/img/refs/prev/emtc-kariera.jpg" /></p>
+			<div class="info">
+				<ul>
+					<li><?php echo $dict['refs_col_client'];?>: <b></b></li>
+					<li><?php echo $dict['refs_col_scope'];?>: <b></b></li>
+					<li><?php echo $dict['refs_col_technologies'];?>: <b></b></li>
+					<li><?php echo $dict['refs_col_date'];?>: <b></b></li>
+					<li><?php echo $dict['refs_col_length'];?>: <b></b></li>
+				</ul>
+				<p class="description"></p>
+				<p class="description"><a href="#" target="_blank"><span class="text"></span><span class="fa fa-external-link"></span></a><span class="ftext"></span></p>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<?php include '_scripts.html';?>
+	</div>
+
+	<?php include '_debug.html';?>
+</body>
+</html>

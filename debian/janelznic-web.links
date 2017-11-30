@@ -1,0 +1,5 @@
+/srv/janelznic/web/conf/apache2.conf /etc/apache2/sites-available/janelznic.cz.conf
+/etc/apache2/sites-available/janelznic.cz.conf /etc/apache2/sites-enabled/500__janelznic.cz.conf
+
+/srv/janelznic/web/conf/application.config.php /srv/janelznic/web/wwwroot/config/application.config.php
+/srv/janelznic/web/conf/templates.config.php /srv/janelznic/web/wwwroot/config/templates.config.php

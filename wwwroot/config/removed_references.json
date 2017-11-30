@@ -1,0 +1,54 @@
+{
+	"department": {
+		"type": "big",
+		"cs": {
+			"title": "Web Department.cz",
+			"description": "Kompletní vývoj webu pro digitální agenturu DEPARTMENT postavenou na řešení Wordpress.",
+			"client": "Department s.r.o.",
+			"scope": "Frontend, Backend",
+			"technologies": "Wordpress",
+			"date": "léto 2016",
+			"link": ["https://department.cz"],
+			"image": "department.jpg"
+		},
+		"en": {
+			"title": "Web Department.cz",
+			"description": "Complete development of web site for digital agency DEPARTMENT based on Wordpress solution.",
+			"client": "Department s.r.o.",
+			"scope": "Frontend, Backend",
+			"technologies": "Wordpress",
+			"date": "summer 2016",
+			"link": ["https://department.cz"],
+			"image": "department.jpg"
+		}
+	},
+	"msd": {
+		"type": "big",
+		"cs": {
+			"title": "MSD Einstein's café",
+			"description": "Sociální platforma pro digitální inovaci. Interní projekt společnosti MSD IT.",
+			"client": "Merck, Sharp & Dohme",
+			"scope": "Fullstack (frontend/backend)",
+			"technologies": "Node.js, AngularJS, Neo4j",
+			"date": "zima 2016",
+			"link": [
+				false,
+				"Aplikace není veřejně dostupná"
+			],
+			"image": "msd.jpg"
+		},
+		"en": {
+			"title": "MSD Einstein's café",
+			"description": "Social platform for Digital Innovation. MSD internal project.",
+			"client": "Merck, Sharp & Dohme",
+			"scope": "Fullstack (frontend/backend)",
+			"technologies": "Node.js, AngularJS, Neo4j",
+			"date": "winter 2016",
+			"link": [
+				false,
+				"Application is not public"
+			],
+			"image": "msd.jpg"
+		}
+	}
+}

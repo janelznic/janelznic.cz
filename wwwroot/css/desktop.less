@@ -1,0 +1,232 @@
+/*- Desktop -*/
+#device { content:"desktop"; } .desktop { display:block; } .ndesktop { display:none; }
+
+@scroll-transition:all .3s;;
+
+/*- Header -*/
+header									{ height:80px; transition:@scroll-transition; }
+header p.logo							{ margin:4px 18px; font-size:50px; float:left; transition:@scroll-transition; }
+header p.ham							{ display:none; }
+header nav								{  }
+header nav.active						{  }
+header ul								{  }
+header ul li							{ display:inline-block; }
+header nav ul.menu						{ position:absolute; top:24px; left:115px; transition:@scroll-transition; }
+header nav ul.menu li					{ margin:0 15px; transition:@scroll-transition; }
+header nav ul.menu li a					{  }
+header nav ul.icons						{ float:right; margin:18px 0; transition:@scroll-transition; }
+header nav ul.icons li					{ height:36px; margin:0 5px; position:relative; width:36px; }
+header nav ul.icons li a				{ padding:10px 9px 10px 11px; position:absolute; top:0; left:0; padding:10px; width:20px; height:20px; transition:all .2s; font-size:20px; display:block; color:#FFF; background:#444; border-radius:50%; text-decoration:none; transition:@scroll-transition; }
+header nav ul.icons li a:hover			{ background:#009AD9; top:-5px; left:-5px; padding:15px; transition:all .2s; transition:@scroll-transition; }
+header nav ul.lang						{ margin:24px 15px; float:right; transition:@scroll-transition; }
+header nav ul.lang:before				{ content:"|"; }
+header nav ul.lang li					{  }
+header nav ul.lang li a					{  }
+
+/*- When page is scrolled down -*/
+header.scroll							{ height:60px; transition:@scroll-transition; }
+header.scroll p.logo					{ font-size:40px; margin-top:2px; transition:@scroll-transition; }
+header.scroll nav						{  }
+header.scroll nav ul.menu				{ top:18px; transition:@scroll-transition; }
+header.scroll nav ul.menu li			{ font-size:20px; transition:@scroll-transition; }
+header.scroll nav ul.icons				{ margin:10px 0; transition:@scroll-transition; }
+header.scroll nav ul.icons li			{  }
+header.scroll nav ul.icons li a			{ background:none; color:#444; transition:@scroll-transition; }
+header.scroll nav ul.icons li a:hover	{ color:@blue; transition:@scroll-transition; }
+header.scroll nav ul.lang				{ font-size:20px; margin-top:18px; transition:@scroll-transition; }
+header.scroll nav ul.lang:before		{  }
+header.scroll nav ul.lang li			{  }
+header.scroll nav ul.lang li a			{  }
+
+
+/*- Home / Intro -*/
+section.intro							{  }
+section.intro .title					{  }
+section.intro .title h1					{ font-size:80px; }
+section.intro .title h1 .surname		{  }
+section.intro .title p.profession		{ margin-top:-32px; font-size:32px; }
+
+section.intro p.down					{  }
+section.intro p.down a					{  }
+section.intro p.down a:hover			{  }
+
+
+/*- Quotation -*/
+section.chair							{ height:300px; }
+section.quotation						{ padding:100px 0; }
+section.quotation blockquote			{ max-width:660px; font-size:25px; }
+section.quotation blockquote:before,
+ section.quotation blockquote:after		{ width:660px; height:50px; }
+section.quotation blockquote:before		{  }
+section.quotation blockquote:after		{  }
+section.quotation blockquote p			{  }
+section.quotation blockquote p:before,
+ section.quotation blockquote p:after	{  }
+section.quotation blockquote p:before	{ bottom:-50px; left:24px; font-size:150px; }
+section.quotation blockquote p:after	{ top:24px; right:42px; font-size:150px; }
+section.quotation blockquote cite		{  }
+section.coffee							{  }
+section.coffee:before					{  }
+section.coffee:after					{  }
+
+
+/*- About me -*/
+section.about							{  }
+section.about .inner					{ padding:150px 0; }
+section.about h2						{  }
+section.about p							{ padding:12px 0; max-width:900px; font-size:16px; }
+section.about p.cv						{  }
+section.about p.cv a					{  }
+section.about p.cv a:hover				{  }
+
+
+/*- Portfolio -*/
+section.portfolio									{ padding-top:140px; padding-bottom:100px; }
+section.portfolio h2								{ font-size:40px; margin-bottom:5px; }
+section.portfolio h4								{ font-size:24px; margin-bottom:20px; }
+section.portfolio ul.boxes							{ width:1237px; margin:0 auto; }
+section.portfolio ul.boxes > li						{ padding:15px; padding:50px 30px; width:327px; height:290px; margin:10px; }
+section.portfolio ul.boxes > li h3					{ font-size:24px; }
+section.portfolio ul.boxes > li p.img				{ font-size:90px; margin:15px auto 20px; }
+section.portfolio ul.boxes > li ul.points			{ margin-left:5px; }
+section.portfolio ul.boxes > li ul.points > li		{ font-size:16px; }
+
+
+/*- Reference -*/
+section.refs											{ padding-top:140px; }
+section.refs h2											{ font-size:40px; }
+section.refs h4.ct										{ margin:30px 0 20px; font-size:18px; }
+
+section.refs .clients									{  }
+section.refs .clients ul.nav							{  }
+section.refs .clients ul.nav li							{  }
+section.refs .clients ul.nav li:first-child				{  }
+section.refs .clients ul.nav li:last-child				{  }
+section.refs .clients ul.nav li:first-child:before,
+ section.refs .clients ul.nav li:last-child:before		{  }
+section.refs .clients ul.nav li:first-child:before		{  }
+section.refs .clients ul.nav li:last-child:before		{  }
+section.refs .clients ul.nav li a						{  }
+section.refs .clients ul.nav li a:hover					{  }
+section.refs .clients ul.nav li a .fa					{  }
+section.refs .clients .wrap								{  }
+section.refs .clients .wrap ul.logos					{  }
+section.refs .clients .wrap ul.logos > li:first-child	{  }
+section.refs .clients .wrap ul.logos > li				{  }
+section.refs .clients .wrap ul.logos > li a				{  }
+section.refs .clients .wrap ul.logos > li a:hover		{  }
+
+section.refs ul.list									{ width:960px; }
+section.refs ul.list > li.big							{ width:800px; height:300px; }
+section.refs ul.list > li.big:first-child				{  }
+section.refs ul.list > li.big:after						{  }
+section.refs ul.list > li.big .prev						{ width:400px; }
+section.refs ul.list > li.big:nth-child(odd) .prev		{  }
+section.refs ul.list > li.big:nth-child(even) .prev		{  }
+section.refs ul.list > li.big .prev a					{  }
+section.refs ul.list > li.big .prev a img				{  }
+section.refs ul.list > li.big .prev a span.fa 			{ font-size:50px; }
+section.refs ul.list > li.big .prev a:hover span.fa 	{ font-size:100px; padding-top:90px; }
+section.refs ul.list > li.big:nth-child(even) .desc		{  }
+section.refs ul.list > li.big:nth-child(odd) .desc		{  }
+section.refs ul.list > li.big .desc						{ width:400px; padding:30px; }
+section.refs ul.list > li.big .desc h3					{ margin-bottom:15px; font-size:24px; }
+section.refs ul.list > li.big .desc > ul				{ font-size:18px; margin-bottom:20px; }
+section.refs ul.list > li.big .desc > ul > li			{  }
+section.refs ul.list > li.big .desc > ul > li .small	{ font-size:16px; }
+section.refs ul.list > li.big .desc p.button			{  }
+section.refs ul.list > li.big .desc p.button a			{  }
+section.refs ul.list > li.big .desc p.button a:hover	{  }
+
+section.refs ul.list > li.medium						{ padding:40px 0; width:360px; height:270px; }
+section.refs ul.list > li.medium:nth-child(even)		{ padding-left:40px; }
+section.refs ul.list > li.medium:nth-child(odd)			{ padding-right:40px; }
+section.refs ul.list > li.medium a						{ width:360px; height:270px; }
+section.refs ul.list > li.medium a p					{  }
+section.refs ul.list > li.medium a h3					{  }
+section.refs ul.list > li.medium a p.fa					{ font-size:40px; top:140px; left:170px; }
+section.refs ul.list > li.medium a h3,
+ section.refs ul.list > li.medium a p.fa				{  }
+section.refs ul.list > li.medium a:hover h3,
+ section.refs ul.list > li.medium a:hover p.fa			{  }
+section.refs ul.list > li.medium a:hover p.fa			{ font-size:80px; top:120px; left:150px; }
+section.refs ul.list > li.medium a p.img img			{  }
+section.refs ul.list > li.medium a p.img:after			{  }
+section.refs ul.list > li.medium a:hover p.img:after	{  }
+
+section.refs ul.list > li.mini							{ margin-bottom:40px; width:160px; height:120px; }
+section.refs ul.list > li.mini:nth-child(4n+1),
+ section.refs ul.list > li.mini:nth-child(4n+2)			{ padding-right:40px; }
+section.refs ul.list > li.mini:nth-child(4n+3),
+ section.refs ul.list > li.mini:nth-child(4n+4)			{ padding-left:40px; }
+section.refs ul.list > li.mini a						{ width:160px; height:120px; }
+section.refs ul.list > li.mini a p						{  }
+section.refs ul.list > li.mini a p.fa					{ font-size:20px; top:50px; left:70px; }
+section.refs ul.list > li.mini a:hover h3,
+ section.refs ul.list > li.mini a:hover p.fa			{  }
+section.refs ul.list > li.mini a:hover p.fa				{ font-size:40px; top:40px; left:63px; }
+section.refs ul.list > li.mini a p.img:after			{  }
+section.refs ul.list > li.mini a:hover p.img:after		{  }
+
+section.refs ul.list .white-banner						{ padding:10px; width:580px; height:80px; }
+section.refs ul.list .white-banner h5					{ font-size:20px; }
+section.refs ul.list .white-banner p					{ font-size:15px; }
+
+section.refs ul.list .endof								{ width:660px; margin:50px auto; }
+section.refs ul.list .endof:after						{  }
+
+
+/*- Contact -*/
+section.contact											{  }
+section.contact .wrap									{ width:960px; margin:0 auto; }
+section.contact h2										{  }
+section.contact .details								{  }
+section.contact .details table							{  }
+section.contact .details table td:nth-child(odd)		{  }
+section.contact .details table td:nth-child(odd):after	{  }
+section.contact .details table td:nth-child(even)		{  }
+section.contact .details p.vcard						{  }
+section.contact .details p.vcard a						{  }
+section.contact .details p.vcard a:hover				{  }
+section.contact .details p.vcard a .fa					{  }
+section.contact p.qr-code								{  }
+section.contact p.qr-code img							{  }
+section.contact h4										{  }
+section.contact .form									{  }
+section.contact .form .row								{  }
+section.contact .form .textfield						{  }
+section.contact .form .textfield input					{  }
+section.contact .form input,
+ section.contact .form textarea							{  }
+section.contact .form .err								{  }
+section.contact .form .name input						{  }
+section.contact .form .email input						{  }
+section.contact .form .text								{  }
+section.contact .form .text textarea					{  }
+section.contact .form .row.butt input					{  }
+section.contact .form input[type=submit]				{  }
+section.contact .form input[type=submit]:hover			{  }
+section.contact .form input[type=reset]					{  }
+section.contact .form input[type=reset]:hover			{  }
+
+
+/*- Notice -*/
+section.notice							{  }
+section.notice h1						{ padding-top:15%; font-size:36px; }
+section.notice h2						{ font-size:24px; }
+
+
+/*- Pop up windows -*/
+.popup-bg								{  }
+.popup									{ padding:20px; top:70px; width:640px; margin-left:-320px; }
+.popup-bg.active, .popup.active			{  }
+.popup p.close-button					{  }
+.popup p.close-button a					{  }
+.popup p.close-button a .fa				{  }
+.popup p.img img						{ width:640px; height:480px; }
+.popup h4								{ font-size:20px; }
+.popup .info							{ padding:10px 0 0; }
+.popup .info > ul						{  }
+.popup .info > ul > li					{  }
+.popup .info > p.description			{  }
+.popup .info > p.description .fa		{  }

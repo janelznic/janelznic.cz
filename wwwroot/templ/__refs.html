@@ -1,0 +1,96 @@
+<!-- Reference -->
+<section class="refs scrollable" id="<?php echo $dict['menu_buttonId_references'];?>">
+	<h2><?php echo $dict['refs_title'];?></h2>
+
+	<h4 class="ct"><?php echo $dict['refs_clients_title'];?>:</h4>
+	<div class="clients" id="clients_banner">
+		<div class="wrap">
+			<ul class="logos">
+				<li><a target="_blank" href="https://www.seznam.cz"><img src="/img/clients/seznam.png" alt="Seznam.cz" title="Seznam.cz" /></a></li>
+				<li><a target="_blank" href="https://www.centrum.cz"><img src="/img/clients/centrum.png" alt="Centrum.cz" title="Centrum.cz (NetCentrum s.r.o.)" /></a></li>
+				<li><a target="_blank" href="https://www.o2.cz"><img src="/img/clients/o2.png" alt="O2 CZ" title="O2 CZ" /></a></li>
+				<li><a target="_blank" href="https://www.telekom.sk"><img src="/img/clients/slovak-telekom.png" alt="Slovak Telekom" title="Slovak Telekom" /></a></li>
+				<li><a target="_blank" href="http://nadacevodafone.cz"><img src="/img/clients/vodafone.png" alt="Vodafone ČR" title="Nadace Vodafone ČR" /></a></li>
+				<li><a target="_blank" href="https://www.msdit.cz"><img src="/img/clients/msd.png" alt="MSD" title="MSD" /></a></li>
+				<li><a target="_blank" href="http://www.cemex.cz"><img src="/img/clients/cemex.png" alt="Cemex" title="Cemex" /></a></li>
+				<li><a target="_blank" href="http://www.kkcg.com"><img src="/img/clients/kkcg.png" alt="KKCG" title="KKCG" /></a></li>
+				<li><a target="_blank" href="http://www.emtc.cz"><img src="/img/clients/emtc.png" alt="EMTC - Czech" title="EMTC - Czech" /></a></li>
+				<li><a target="_blank" href="https://www.lipalearning.com"><img src="/img/clients/lipalearning.png" alt="Lipa Learning" title="Lipa Learning" /></a></li>
+				<li><a target="_blank" href="http://www.etnetera.cz"><img src="/img/clients/etnetera.png" alt="Etnetera" title="Etnetera" /></a></li>
+				<li><a target="_blank" href="https://www.easports.com/"><img src="/img/clients/ea-sports.png" alt="EA Sports" title="EA Sports" /></a></li>
+				<li><a target="_blank" href="http://www.trusteca.com"><img src="/img/clients/trusteca.png" alt="Trusteca" title="Trusteca" /></a></li>
+				<li><a target="_blank" href="https://www.happyfeed.com"><img src="/img/clients/happyfeed.png" alt="Happyfeed" title="Happyfeed.com" /></a></li>
+				<li><a target="_blank" href="http://www.cleverbee.com"><img src="/img/clients/cleverbee.png" alt="Cleverbee" title="Cleverbee" /></a></li>
+				<li><a target="_blank" href="http://www.eprovement.com"><img src="/img/clients/eprovement.png" alt="eProvement" title="eProvement" /></a></li>
+				<li><a target="_blank" href="http://www.heelys.cz"><img src="/img/clients/heelys.png" alt="Heelys" title="Heelys" /></a></li>
+				<li><a target="_blank" href="http://www.szdc.cz"><img src="/img/clients/szdc.png" alt="SŽDC" title="Správa železniční dopravní cesty" /></a></li>
+				<li><a target="_blank" href="http://www.pearescope.com"><img src="/img/clients/pearescope.png" title="Pearescope" title="Pearescope Inc." /></a></li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+		<ul class="nav">
+			<li><a href="#"><span class="fa fa-angle-left"></span></a></li>
+			<li><a href="#"><span class="fa fa-angle-right"></span></a></li>
+		</ul>
+	</div>
+	<script>
+		var clientsBanner = new Clients("clients_banner");
+	</script>
+
+	<h4 class="ct"><?php echo $dict['refs_projects_title'];?>:</h4>
+	<ul class="list">
+		<?php foreach($references as $rid => $r):?>
+			<?php if($r['type'] == 'big'):?>
+				<li class="big">
+					<div class="desc">
+						<h3><?php echo $r['title'];?></h3>
+						<ul>
+							<li><?php echo $dict['refs_col_client'];?>: <b><?php echo $r['client'];?></b></li>
+							<li><?php echo $dict['refs_col_scope'];?>: <b <?php echo (strlen($r['scope'])>20) ? 'class="small"':''?>><?php echo $r['scope'];?></b></li>
+							<li><?php echo $dict['refs_col_technologies'];?>: <b <?php echo (strlen($r['technologies'])>20) ? 'class="small"':''?>><?php echo $r['technologies'];?></b></li>
+							<li><?php echo $dict['refs_col_date'];?>: <b><?php echo $r['date'];?></b></li>
+							<?php if ($r['length']):?>
+								<li><?php echo $dict['refs_col_length'];?>: <b><?php echo $r['length'];?></b></li>
+							<?php endif;?>
+						</ul>
+						<p class="button">
+							<?php if ($r['link'][0] == false):?>
+								<a class="disabled"><?php echo $r['link'][1];?></a>
+							<?php else:?>
+								<a href="<?php echo $r['link'][0];?>" target="_blank"><?php echo $r['link'][1] ? $r['link'][1] : $r['link'][0];?></a>
+							<?php endif;?>
+						</p>
+					</div>
+					<div class="prev">
+						<a href="/img/refs/prev/<?php echo $r['image'];?>" data-popup="image" data-refId="<?php echo $rid;?>"><img src="/img/refs/prev/<?php echo $r['image'];?>" width="400" height="300" alt="<?php echo $r['title'];?> screenshot" /><span class="fa fa-search-plus"></span></a>
+					</div>
+					<div class="clear"></div>
+				</li>
+
+			<?php elseif($r['type'] == 'banner'):?>
+				<div class="white-banner">
+					<h5><?php echo $dict['refs_other_title'];?></h5>
+					<p><?php echo $dict['refs_other_text'];?> <?php echo Date("Y");?>.<br />
+					<?php echo $dict['refs_other_opensource_text'];?> <a target="_blank" href="//github.com/JanElznic">GitHub</a>.</p>
+				</div>
+			<?php elseif($r['type'] == 'medium'):?>
+				<li class="medium">
+					<a data-refId="<?php echo $rid;?>" href="/img/refs/prev/<?php echo $r['image'];?>" data-popup="image">
+						<h3><?php echo $r['title'];?></h3>
+						<p class="fa fa-search-plus"></p>
+						<p class="img"><img width="360" height="270" src="/img/refs/prev/<?php echo $r['image'];?>" alt="<?php echo $r['title'];?> screeenshot" /></p>
+					</a>
+				</li>
+			<?php elseif($r['type'] == 'mini'):?>
+				<li class="mini">
+					<a data-refId="<?php echo $rid;?>" href="/img/refs/prev/<?php echo $r['image'];?>" data-popup="image">
+						<p class="fa fa-search-plus"></p>
+						<p class="img"><img width="160" height="120" src="/img/refs/prev/<?php echo $r['image'];?>" alt="<?php echo $r['title'];?> screenshot" /></p>
+					</a>
+				</li>
+			<?php endif;?>
+		<?php endforeach;?>
+
+		<div class="endof"></div>
+	</ul>
+</section>

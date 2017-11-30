@@ -1,0 +1,35 @@
+<script>
+	/* JS dictionary */
+	Dict = {
+		form: {
+			errEmpty: "<?php echo $dict['form_errEmpty'];?>",
+			err400: "<?php echo $dict['form_err400'];?>",
+			err403: "<?php echo $dict['form_err403'];?>",
+			err500: "<?php echo $dict['form_err500'];?>",
+			ok: "<?php echo $dict['form_ok'];?>"
+		}
+	};
+
+
+	var design = new Design(["intro"]);
+	/*var debug = new Debugger();*/
+	var menu = new Menu();
+	var pageScroll = new PageScroll();
+	var bgscroll = new BgScroll();
+	var flashMessage = new FlashMessage();
+	var preview = new Preview(<?php echo $references_json;?>);
+	var contactForm = new ContactForm(flashMessage);
+	var animations = new Animations();
+	var preloader = new Preloader();
+
+	/* Google Analytics */
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-22485023-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>

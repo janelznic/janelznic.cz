@@ -1,0 +1,31 @@
+<?php include '_doctype.html';?>
+<html>
+<head>
+	<?php include '_common.html';?>
+	<title>Error <?php echo $status;?> - <?php echo $dict["title"];?></title>
+</head>
+
+<body class="page" id="notice">
+
+	<div class="container">
+		<section class="notice fullhght">
+			<h1>Ooops... Error <?php echo $status;?></h1>
+			<?php if ($status == 404):?>
+				<h2><span class="fa fa-thumbs-o-down"></span> Page not found</h2>
+			<?php elseif ($status == 403):?>
+				<h2>Forbidden</h2>
+			<?php elseif ($status == 500):?>
+				<h2>Internal server error</h2>
+			<?php else:?>
+				<h2>Unknown error</h2>
+			<?php endif;?>
+			<p class="button"><a href="/"><span class="fa fa-home"></span> Go to homepage</a></p>
+		</section>
+
+		<!-- Patička -->
+		<?php include '_foot.html';?>
+	</div>
+
+	<?php include '_debug.html';?>
+</body>
+</html>

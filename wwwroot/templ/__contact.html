@@ -1,0 +1,73 @@
+<!-- Kontakt -->
+<section class="contact scrollable" id="<?php echo $dict['menu_buttonId_contact'];?>">
+	<div class="wrap">
+		<h2><?php echo $dict['contact_title'];?></h2>
+
+		<div class="details">
+			<table>
+				<tr>
+					<td><?php echo $dict['contact_phone'];?></td>
+					<td itemprop="telephone">(+420) 732 927 927</td>
+				</tr>
+				<tr>
+					<td><?php echo $dict['contact_email'];?></td>
+					<td><a itemprop="email" href="mailto:jan@elznic.com">jan@elznic.com</a></td>
+				</tr>
+				<tr>
+					<td><?php echo $dict['contact_jabber'];?></td>
+					<td>jan.elznic@jabber.cz</td>
+				</tr>
+				<tr>
+					<td><?php echo $dict['contact_hangouts'];?></td>
+					<td>jan.elznic@gmail.com</td>
+				</tr>
+				<tr>
+					<td><?php echo $dict['contact_skype'];?></td>
+					<td>janelznic</td>
+				</tr>
+				<tr>
+					<td><?php echo $dict['contact_icq'];?></td>
+					<td>339725306</td>
+				</tr>
+			</table>
+
+			<p class="vcard"><a href="/files/janelznic-vcard.vcf"><span class="fa fa-download"></span><?php echo $dict['contact_download_vcard'];?></a></p>
+		</div>
+
+		<p class="qr-code">
+			<a target="_blank" href="<?php echo $dict['contact_qrcode_wiki'];?>">
+				<img src="/img/qr-code.png" width="190" height="190" alt="<?php echo $dict['contact_qrcode_title'];?>" title="<?php echo $dict['contact_qrcode_title'];?>" />
+			</a>
+		</p>
+		<div class="clear"></div>
+
+		<h4><?php echo $dict['contact_form_title'];?></h4>
+
+		<form method="post" action="https://<?php echo $_SERVER['HTTP_HOST'];?>/<?php echo $lang;?>/form" id="contactForm">
+			<input type="hidden" name="code" value="" />
+			<div class="form">
+				<div class="row">
+					<div class="textfield name">
+						<input name="name" id="name" value="" maxlength="255" placeholder="<?php echo $dict['contact_form_name'];?>" class="" />
+					</div>
+					<div class="textfield email">
+						<input name="email" id="email" value="" maxlength="255" placeholder="<?php echo $dict['contact_form_email'];?>" class="" />
+					</div>
+					<div class="clear"></div>
+				</div>
+
+				<div class="row">
+					<div class="text">
+						<textarea name="message" id="message" placeholder="<?php echo $dict['contact_form_message'];?>"></textarea>
+					</div>
+				</div>
+
+				<div class="row butt">
+					<input type="submit" id="sendButton" value="<?php echo $dict['contact_form_submit'];?>" />
+					<input type="reset" value="<?php echo $dict['contact_form_reset'];?>" />
+					<div class="clear"></div>
+				</div>
+			</div>
+		</form>
+	</div>
+</section>

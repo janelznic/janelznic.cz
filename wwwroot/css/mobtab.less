@@ -1,0 +1,194 @@
+/*- Mobile and tablet -*/
+
+@mob-header-height:70px;
+@mob-menu-open-anim-length:.25s;
+
+
+/*- Header -*/
+header									{ height:@mob-header-height; }
+header p.logo							{ display:none; }
+.ham							{  }
+header nav *							{ animation-name:none !important; }
+header nav								{ opacity:0; transition:opacity @mob-menu-open-anim-length ease-in-out; position:absolute; top:70px; width:100%; height:10000px; background:@header-background; }
+header nav.active						{ opacity:1; transition:opacity @mob-menu-open-anim-length ease-in-out; }
+header ul								{  }
+header ul li							{ text-align:center; }
+header nav ul.menu						{  }
+header nav ul.menu li					{  }
+header nav ul.menu li a					{ display:block; padding:8px 0; }
+header nav ul.icons						{ position:absolute; left:50%; margin-left:-131px; margin-top:10px; }
+header nav ul.icons li					{ display:inline-block; font-size:26px; }
+header nav ul.icons li a				{ padding:0 20px; }
+header nav ul.icons li a:hover			{  }
+header nav ul.lang						{  }
+header nav ul.lang:before				{  }
+header nav ul.lang li					{  }
+header nav ul.lang li a					{ display:block; padding:8px 0; }
+
+
+/*- Hamburger / triple menu -*/
+.ham a.triple .bar-icon-wrapper						{ left:22px; position:absolute; top:22px; }
+.ham .nav-menu-wrapper								{ z-index:5; position:absolute; top:0; left:0; }
+.ham .nav-menu-wrapper:not(.exposed) .nav-menu		{ float:left; position:relative; margin:3px 8px; z-index:10; }
+.ham .nav-menu a.triple								{ cursor:pointer; display:block; height:70px; width:65px; }
+.ham a.triple										{ .user-select(none); }
+.ham a.triple .bar-icon-wrapper						{ position:absolute; -webkit-transform:translate3d(0, 0, 0); }
+.ham a.triple .bar-icon								{ height:3px; width:20px; background:#444; display:block; opacity:1; margin-top:4px; transition:transform @mob-menu-open-anim-length linear; .transform-origin(50%, 50%); }
+.ham .bar-icon:nth-child(2)							{ transition:opacity .1s linear; }
+.ham .active .bar-icon:nth-child(1)					{ .transform(rotate(45deg) translate3d(5px, 5px, 0)); }
+.ham .active .bar-icon:nth-child(2)					{ opacity:0; }
+.ham .active .bar-icon:nth-child(3)					{ .transform(rotate(-45deg) translate3d(5px, -5px, 0)); }
+
+
+/*- Home / Intro -*/
+section.intro							{  }
+section.intro .title					{  }
+section.intro .title h1					{ font-size:50px; }
+section.intro .title h1 .surname		{  }
+section.intro .title p.profession		{ margin-top:-20px; font-size:20px; }
+
+section.intro p.down					{  }
+section.intro p.down a					{  }
+section.intro p.down a:hover			{  }
+
+
+/*- Quotation -*/
+section.chair, section.coffee			{ height:100px; }
+section.quotation						{  }
+section.quotation blockquote			{  }
+section.quotation blockquote:before,
+ section.quotation blockquote:after		{  }
+section.quotation blockquote:before		{  }
+section.quotation blockquote:after		{  }
+section.quotation blockquote p			{  }
+section.quotation blockquote p:before,
+ section.quotation blockquote p:after	{  }
+section.quotation blockquote p:before	{  }
+section.quotation blockquote p:after	{  }
+section.quotation blockquote cite		{  }
+section.coffee							{  }
+section.coffee:before					{  }
+section.coffee:after					{  }
+
+
+/*- About me -*/
+section.about							{  }
+section.about .inner					{  }
+section.about h2						{  }
+section.about p							{  }
+section.about p.cv						{  }
+section.about p.cv a					{  }
+section.about p.cv a:hover				{  }
+
+
+/*- Portfolio -*/
+section.portfolio									{  }
+section.portfolio h2								{  }
+section.portfolio h4								{ margin-bottom:10px; }
+section.portfolio ul.boxes							{  }
+section.portfolio ul.boxes > li						{  }
+section.portfolio ul.boxes > li h3					{  }
+section.portfolio ul.boxes > li p.img				{  }
+section.portfolio ul.boxes > li ul.points			{  }
+section.portfolio ul.boxes > li ul.points > li		{  }
+
+
+/*- Reference -*/
+section.refs											{  }
+section.refs h2											{  }
+section.refs h4.ct										{  }
+
+section.refs .clients									{  }
+section.refs .clients ul.nav							{  }
+section.refs .clients ul.nav li							{  }
+section.refs .clients ul.nav li:first-child				{  }
+section.refs .clients ul.nav li:last-child				{  }
+section.refs .clients ul.nav li:first-child:before,
+ section.refs .clients ul.nav li:last-child:before		{  }
+section.refs .clients ul.nav li:first-child:before		{  }
+section.refs .clients ul.nav li:last-child:before		{  }
+section.refs .clients ul.nav li a						{  }
+section.refs .clients ul.nav li a:hover					{  }
+section.refs .clients ul.nav li a .fa					{  }
+section.refs .clients .wrap								{  }
+section.refs .clients .wrap ul.logos					{  }
+section.refs .clients .wrap ul.logos > li:first-child	{  }
+section.refs .clients .wrap ul.logos > li				{  }
+section.refs .clients .wrap ul.logos > li a				{  }
+section.refs .clients .wrap ul.logos > li a:hover		{  }
+
+section.refs ul.list									{  }
+section.refs ul.list > li.big							{  }
+section.refs ul.list > li.big:first-child				{  }
+section.refs ul.list > li.big:after						{  }
+section.refs ul.list > li.big .prev						{  }
+section.refs ul.list > li.big:nth-child(odd) .prev		{  }
+section.refs ul.list > li.big:nth-child(even) .prev		{  }
+section.refs ul.list > li.big .prev a					{  }
+section.refs ul.list > li.big .prev a img				{  }
+section.refs ul.list > li.big .prev a span.fa 			{  }
+section.refs ul.list > li.big .prev a:hover span.fa 	{  }
+section.refs ul.list > li.big:nth-child(even) .desc		{  }
+section.refs ul.list > li.big:nth-child(odd) .desc		{  }
+section.refs ul.list > li.big .desc						{  }
+section.refs ul.list > li.big .desc h3					{  }
+section.refs ul.list > li.big .desc > ul				{  }
+section.refs ul.list > li.big .desc > ul > li			{  }
+section.refs ul.list > li.big .desc > ul > li .small	{  }
+section.refs ul.list > li.big .desc p.button			{  }
+section.refs ul.list > li.big .desc p.button a			{  }
+section.refs ul.list > li.big .desc p.button a:hover	{  }
+
+section.refs ul.list > li.medium						{  }
+section.refs ul.list > li.medium:nth-child(even)		{  }
+section.refs ul.list > li.medium:nth-child(odd)			{  }
+section.refs ul.list > li.medium a						{  }
+section.refs ul.list > li.medium a p					{  }
+section.refs ul.list > li.medium a h3					{  }
+section.refs ul.list > li.medium a p.fa					{  }
+section.refs ul.list > li.medium a h3,
+ section.refs ul.list > li.medium a p.fa				{  }
+section.refs ul.list > li.medium a:hover h3,
+ section.refs ul.list > li.medium a:hover p.fa			{  }
+section.refs ul.list > li.medium a:hover p.fa			{  }
+section.refs ul.list > li.medium a p.img img			{  }
+section.refs ul.list > li.medium a p.img:after			{  }
+section.refs ul.list > li.medium a:hover p.img:after	{  }
+
+section.refs ul.list > li.mini							{  }
+section.refs ul.list > li.mini:nth-child(4n+1),
+ section.refs ul.list > li.mini:nth-child(4n+2)			{  }
+section.refs ul.list > li.mini:nth-child(4n+3),
+ section.refs ul.list > li.mini:nth-child(4n+4)			{  }
+section.refs ul.list > li.mini a						{  }
+section.refs ul.list > li.mini a p						{  }
+section.refs ul.list > li.mini a p.fa					{  }
+section.refs ul.list > li.mini a:hover h3,
+ section.refs ul.list > li.mini a:hover p.fa			{  }
+section.refs ul.list > li.mini a:hover p.fa				{  }
+section.refs ul.list > li.mini a p.img:after			{  }
+section.refs ul.list > li.mini a:hover p.img:after		{  }
+
+section.refs ul.list .white-banner						{  }
+section.refs ul.list .white-banner h5					{  }
+section.refs ul.list .white-banner p					{  }
+
+section.refs ul.list .endof								{  }
+section.refs ul.list .endof:after						{  }
+
+
+/*- Notice -*/
+section.notice							{  }
+section.notice h1						{ padding-top:20%; font-size:28px; }
+section.notice h2						{ font-size:18px; }
+
+
+/*- Pop up windows -*/
+.popup-bg								{  }
+.popup									{  }
+.popup-bg.active, .popup.active			{  }
+.popup p.close-button					{  }
+.popup p.close-button a					{  }
+.popup p.close-button a .fa				{  }
+.popup p.img img						{  }
+

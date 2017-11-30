@@ -1,0 +1,194 @@
+janelznic-web (2.2.9) UNRELEASED; urgency=low
+
+  * Static version up
+
+ -- Jan Elznic <jan@elznic.com>  Wed, 06 Sep 2017 22:00:00 +0200
+
+janelznic-web (2.2.8) UNRELEASED; urgency=low
+
+  * Pridani referenci
+  * Uprava dovednosti
+  * Oprava animace hlavicky ve FF
+
+ -- Jan Elznic <jan@elznic.com>  Wed, 06 Sep 2017 20:31:00 +0200
+
+janelznic-web (2.2.7) UNRELEASED; urgency=low
+
+  * Update CV - GraphQL
+
+ -- Jan Elznic <jan@elznic.com>  Wed, 24 May 2017 15:20:00 +0200
+
+janelznic-web (2.2.6) UNRELEASED; urgency=low
+
+  * Update CV
+
+ -- Jan Elznic <jan@elznic.com>  Thu, 16 May 2017 22:37:00 +0200
+
+janelznic-web (2.2.5) UNRELEASED; urgency=low
+
+  * Nova verze CV
+
+ -- Jan Elznic <jan@elznic.com>  Wed, 10 May 2017 22:22:00 +0200
+
+janelznic-web (2.2.4) UNRELEASED; urgency=low
+
+  * Oprava slovniku
+
+ -- Jan Elznic <jan@elznic.com>  Thu, 30 Mar 2017 23:48:00 +0200
+
+janelznic-web (2.2.3) UNRELEASED; urgency=low
+
+  * Oprava titulku okna prohlizece a configu pro slovniky
+
+ -- Jan Elznic <jan@elznic.com>  Thu, 30 Mar 2017 23:10:00 +0200
+
+janelznic-web (2.2.2) UNRELEASED; urgency=low
+
+  * Oprava opravy cest ke konfiguraci
+
+ -- Jan Elznic <jan@elznic.com>  Thu, 30 Mar 2017 22:41:00 +0200
+
+janelznic-web (2.2.1) UNRELEASED; urgency=low
+
+  * Oprava cest ke konfiguraci
+
+ -- Jan Elznic <jan@elznic.com>  Thu, 30 Mar 2017 22:36:00 +0200
+
+janelznic-web (2.2) UNRELEASED; urgency=low
+
+  * Aktualizace standardni struktury v baliku
+
+ -- Jan Elznic <jan@elznic.com>  Thu, 30 Mar 2017 22:10:00 +0200
+
+janelznic-web (2.1.3) UNRELEASED; urgency=low
+
+  * Aktualizace SSL certifikatu
+
+ -- Jan Elznic <jan@elznic.com>  Thu, 30 Mar 2017 10:29:00 +0200
+
+janelznic-web (2.1.2) UNRELEASED; urgency=low
+
+  * Odstraneni zavislosti na MySQL a MariaDB
+
+ -- Jan Elznic <jan@elznic.com>  Sat, 4 Mar 2017 18:38:00 +0200
+
+janelznic-web (2.1.1) UNRELEASED; urgency=low
+
+  * Aktualizace certifikatu
+
+ -- Jan Elznic <jan@elznic.com>  Wed, 19 Jan 2017 09:58:00 +0200
+
+janelznic-web (2.1) UNRELEASED; urgency=low
+
+  * Aktualizace referenci a textu
+
+ -- Jan Elznic <jan@elznic.com>  Wed, 14 Dec 2016 11:37:00 +0200
+
+janelznic-web (2.0.10) UNRELEASED; urgency=low
+
+  * Aktualizace SSL certifikatu
+
+ -- Jan Elznic <jan@elznic.com>  Mon, 24 Oct 2016 14:10:00 +0200
+
+janelznic-web (2.0.9) UNRELEASED; urgency=low
+
+  * Aktualizace odkazu na LinkedIn
+
+ -- Jan Elznic <jan@elznic.com>  Tue, 09 Sep 2016 13:28:00 +0200
+
+janelznic-web (2.0.8) UNRELEASED; urgency=low
+
+  * Aktualizace CV
+
+ -- Jan Elznic <jan@elznic.com>  Tue, 30 Aug 2016 21:51:00 +0200
+
+janelznic-web (2.0.7-1) UNRELEASED; urgency=low
+
+  * Obnovene SSL certifikaty
+
+ -- Jan Elznic <jan@elznic.com>  Tue, 25 Jul 2016 13:46:00 +0200
+
+janelznic-web (2.0.7) UNRELEASED; urgency=low
+
+  * Aktualizovany zivotopis
+
+ -- Jan Elznic <jan@elznic.com>  Tue, 24 May 2016 16:35:00 +0200
+
+janelznic-web (2.0.6) UNRELEASED; urgency=low
+
+  * Vynucene presmerovani na HTTPS
+
+ -- Jan Elznic <elza@tulapin.elzanet>  Tue, 30 Mar 2016 01:35:00 +0200
+
+janelznic-web (2.0.5) UNRELEASED; urgency=low
+
+  * Let's Encrypt certifikaty
+
+ -- Jan Elznic <elza@tulapin.elzanet>  Tue, 30 Mar 2016 00:37:00 +0200
+
+janelznic-web (2.0.3-1) UNRELEASED; urgency=lowjanelznic-web (2.0.3-3) UNRELEASED; urgency=low
+
+  * Vypnuti SSL certifikatu - vyjmuti vsech veci s tim spojenych
+  * Oprava zavislosti
+  * Oprava Apache2 conf
+
+ -- Jan Elznic <elza@tulapin.elzanet>  Tue, 29 Mar 2016 22:33:59 +0200
+
+janelznic-web (2.0.3-1) UNRELEASED; urgency=low
+
+  * Vypnuti SSL certifikatu
+
+ -- Jan Elznic <jan@elznic.com>  Mon, 25 Jan 2016 17:57:00 +0200
+
+janelznic-web (2.0.3) UNRELEASED; urgency=low
+
+  * Microdata
+
+ -- Jan Elznic <jan@elznic.com>  Wed, 28 Oct 2015 15:06:00 +0200
+
+janelznic-web (2.0.2-1) UNRELEASED; urgency=low
+
+  * Upravy referenci
+
+ -- Jan Elznic <jan@elznic.com>  Wed, 16 Sep 2015 08:54:00 +0200
+
+janelznic-web (2.0.2) UNRELEASED; urgency=low
+
+  * Velke nahledy referenci
+  * Nacitani referenci z JSON
+  * Upravy konfigurace atd.
+  * Drobne opravy a optimalizace
+
+ -- Jan Elznic <jan@elznic.com>  Tue, 15 Sep 2015 10:07:00 +0200
+
+janelznic-web (2.0.1-2) UNRELEASED; urgency=low
+
+  * Optimalizace pro Google Chrome
+
+ -- Jan Elznic <jan@elznic.com>  Mon, 14 Sep 2015 06:48:00 +0200
+
+janelznic-web (2.0.1-1) UNRELEASED; urgency=low
+
+  * Oprava pro iOS
+
+ -- Jan Elznic <jan@elznic.com>  Mon, 14 Sep 2015 06:24:00 +0200
+
+janelznic-web (2.0.1) UNRELEASED; urgency=low
+
+  * Preloader
+  * Optimalizace pro mobilni zarizeni
+
+ -- Jan Elznic <jan@elznic.com>  Mon, 14 Sep 2015 06:09:00 +0200
+
+janelznic-web (2.0.0-2) UNRELEASED; urgency=low
+
+  * Uprava menu LinkedIn
+  * CV, vCard
+
+ -- Jan Elznic <elza@tulapin.elzanet>  Mon, 07 Sep 2015 17:37:00 +0200
+
+janelznic-web (2.0) extra; urgency=low
+
+  * Zalozeni baliku
+
+ -- Jan Elznic <jan@elznic.com>  Mon, 07 Sep 2015 12:24:00 +0200

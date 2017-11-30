@@ -1,0 +1,7 @@
+conf/apache2.conf /srv/janelznic/web/conf/
+conf/apache2-options.conf /srv/janelznic/web/conf/
+conf/options-ssl-apache.conf /srv/janelznic/web/conf/
+conf/application.config.php /srv/janelznic/web/conf/
+conf/templates.config.php /srv/janelznic/web/conf/
+conf/ssl /srv/janelznic/web/conf/
+wwwroot /srv/janelznic/web/

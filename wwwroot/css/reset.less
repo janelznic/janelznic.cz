@@ -1,0 +1,26 @@
+/*- Less mixins -*/
+.blind() {
+	position:absolute; left:-10000px; top:-10000px; width:1px; height:1px; overflow:hidden;
+}
+
+/*- CSS Prolog -*/
+html, body, p, h1, h2, h3, h4, h5, h6, ul, li, img, textarea	{ margin:0; padding:0; font-family:'FiraSans',sans-serif; color:#000; border:none; }
+
+/*- Basic font-size definition (old Opera versions included -*/
+html												{ font-size:106.5%; }
+body												{ font-size:76.5%; background-color:#FFF; position:relative; }
+table												{ font-size:100%; }
+section												{ background-color:#FFF; }
+
+/*- Basic rules -*/
+a													{ color:#009AD9; cursor:pointer; text-decoration:underline; }
+a:hover												{ color:#009AD9; text-decoration:none; }
+img													{ border:0; }
+
+/*- Common classes -*/
+.cleaner, .clear									{ clear:both; height:0; font-size:1px; visibility:hidden; overflow:hidden; }
+.hide, .blind										{ .blind(); }
+.nodisplay											{ display:none !important; }
+.stop, .stopper										{ position:relative; }
+.bold												{ font-weight:bold; }
+.underline											{ text-decoration:underline; }

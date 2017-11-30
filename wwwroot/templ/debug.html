@@ -1,0 +1,24 @@
+<?php include '_doctype.html';?>
+<html>
+<head>
+	<?php include '_common.html';?>
+	<title>Data structure viewer</title>
+</head>
+
+<body>
+	<style>
+		div { padding:30px; background:#B4B4B4; max-width:100%; overflow:hidden; }
+		pre { margin-top:-8px; }
+		.data { margin-top:0; }
+	</style>
+	<div>
+		<pre>Template source: <b><?php echo $debug["templateSource"];?></b></pre>
+		<pre>Content type: <b><?php echo $conf["content_type"];?></b></pre>
+		<pre>Dictionary: <b><?php echo $conf["dict"];?></b></pre>
+		<pre>Configuration file: <b><?php echo $conf["config"];?></b></pre>
+
+		<pre class="data">Template data:</pre>
+		<pre><?php print_r($data);?></pre>
+	</div>
+</body>
+</html>

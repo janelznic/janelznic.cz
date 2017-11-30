@@ -1,0 +1,32 @@
+/*- Fonts -*/
+@font-face {
+	font-family:'FiraSans';
+	src:url('/fonts/FiraSans-Regular.eot'); /* IE9 Compat Modes */
+	src:url('/fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('/fonts/FiraSans-Regular.woff') format('woff'), /* Modern Browsers */
+		url('/fonts/FiraSans-Regular.ttf') format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family:'FiraSansBold';
+	src:url('/fonts/FiraSans-Bold.eot'); /* IE9 Compat Modes */
+	src:url('/fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('/fonts/FiraSans-Bold.woff') format('woff'), /* Modern Browsers */
+		url('/fonts/FiraSans-Bold.ttf') format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family:'FiraSansItalic';
+	src:url('/fonts/FiraSans-Italic.eot'); /* IE9 Compat Modes */
+	src:url('/fonts/FiraSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('/fonts/FiraSans-Italic.woff') format('woff'), /* Modern Browsers */
+		url('/fonts/FiraSans-Italic.ttf') format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family:'Consolas';
+	src:url('/fonts/ConsolasRegular.eot'); /* IE9 Compat Modes */
+	src:url('/fonts/ConsolasRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('/fonts/ConsolasRegular.woff') format('woff'), /* Modern Browsers */
+		url('/fonts/ConsolasRegular.ttf') format('truetype') /* Safari, Android, iOS */
+}

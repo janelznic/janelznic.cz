@@ -1,0 +1,44 @@
+/*- LESS variables definitions -*/
+
+
+/*- Libraries -*/
+@import "lib.less";
+@import "animate.css";
+
+/*- Fonts -*/
+@import "fonts.css";
+@import "font-awesome.css";
+
+/*- CSS prolog -*/
+@import "reset.less";
+
+/*- Common styles for all platforms -*/
+@import "common.less";
+
+/*- Mobile and tablet -*/
+@media only screen and (max-width:959px) {
+	@import "mobtab.less";
+}
+
+/*- Mobile portrait -*/
+@media only screen and (max-width:767px) {
+	@import "mobile.less";
+}
+
+/*- Tablet portrait and desktop -*/
+@media only screen and (min-width:768px) {
+	@import "tabdesk.less";
+}
+
+/*- Tablet portrait and mobile landscape -*/
+@media only screen and (min-width:768px) and (max-width:959px) {
+	@import "tablet.less";
+}
+
+/*- Tablet landscape and desktop -*/
+@media only screen and (min-width:960px) {
+	@import "desktop.less";
+}
+
+/*- Other responsive sets included there -*/
+@import "other.less";

@@ -1,0 +1,1027 @@
+{
+	"cemex": {
+		"type": "big",
+		"cs": {
+			"title": "Aplikace pro sledování vozidel Cemex",
+			"description": "Frontend řešení pro společnost Cemex - aplikace pro sledování vozidel a distribuci cementu a readymix směsi.",
+			"client": "CEMEX / Neoris s.r.o.",
+			"scope": "Frontend, Responzivní šablona",
+			"technologies": "React, Angular 2",
+			"date": "jaro 2017",
+			"link": [
+				false,
+				"Aplikace není veřejně dostupná"
+			],
+			"image": "cemex.jpg"
+		},
+		"en": {
+			"title": "Cemex track &amp; trace web app",
+			"description": "Development frontend SPA prototypes of track &amp; trace and distribution app for concrete/ready mix.",
+			"client": "CEMEX / Neoris s.r.o.",
+			"scope": "Frontend, Responsive template",
+			"technologies": "React, Angular 2",
+			"date": "spring 2017",
+			"link": [
+				false,
+				"Application is not public"
+			],
+			"image": "cemex.jpg"
+		}
+	},
+
+	"trusteca": {
+		"type": "big",
+		"cs": {
+			"title": "Multiplatformní HTML5 kasino hry",
+			"description": "Vývoj kasino her v HTML5 frameworku Cocos2D-JS pro web, iOS a Android v JavaScriptu za použití technologií Canvas/WebGL. Vytvořeny prototypy pro Blackjack, americkou/evropskou Ruletu a další karetní variace.",
+			"client": "Trusteca s.r.o.",
+			"scope": "Android, iOS, web",
+			"technologies": "Canvas/WebGL, JavaScript",
+			"date": "zima 2016",
+			"link": [
+				false,
+				"Aplikace není veřejně dostupná"
+			],
+			"image": "blackjack.jpg"
+		},
+		"en": {
+			"title": "Multiplatform HTML5 casino games",
+			"description": "Development casino games in HTML5 framework Cocos2D-JS for web, iOS and Android in JavaScript and Canvas/WebGL. I created prototypes for Blackjack, american/europe Roulette and other card games.",
+			"client": "Trusteca s.r.o.",
+			"scope": "Android, iOS, web",
+			"technologies": "Canvas/WebGL, JavaScript",
+			"date": "winter 2016",
+			"link": [
+				false,
+				"Application is not public"
+			],
+			"image": "blackjack.jpg"
+		}
+	},
+	"o2": {
+		"type": "big",
+		"cs": {
+			"title": "O2 portal",
+			"description": "Konzultace pro návrh vývoje UI portálu O2.cz a aplikace Moje O2 a některých webových komponent.",
+			"client": "O2 Czech Republic a.s.",
+			"scope": "Frontend, Responzivní šablona",
+			"technologies": "Java, Liferay, HTML5, CSS3, JS",
+			"date": "jaro 2016",
+			"link": ["https://o2.cz"],
+			"image": "o2.jpg"
+		},
+		"en": {
+			"title": "O2 portal",
+			"description": "Consultations for development of UI portal O2.cz and app \"Moje O2\" and web components development.",
+			"client": "O2 Czech Republic a.s.",
+			"scope": "Frontend, Responsive template",
+			"technologies": "Java, Liferay, HTML5, CSS3, JS",
+			"date": "spring 2016",
+			"link": ["https://o2.cz"],
+			"image": "o2.jpg"
+		}
+	},
+	"getmore": {
+		"type": "big",
+		"cs": {
+			"title": "Web pro službu Getmore.cz",
+			"description": "Dodávka kompletního responzivního webu postaveného na řešení CMS Wordpress mimo dodávky grafického designu.",
+			"client": "Getmore s.r.o.",
+			"scope": "Frontend, backend",
+			"technologies": "PHP, HTML5, CSS3, JS",
+			"date": "podzim 2015",
+			"link": ["http://sluzba.getmore.cz"],
+			"image": "getmore.jpg"
+		},
+		"en": {
+			"title": "Web sluzba.getmore.cz",
+			"description": "Complete backend and responsive frontend solution based on Wordpress CMS.",
+			"client": "Getmore s.r.o.",
+			"scope": "Frontend, backend",
+			"technologies": "PHP, HTML5, CSS3, JS",
+			"date": "autumn 2015",
+			"link": ["http://sluzba.getmore.cz"],
+			"image": "getmore.jpg"
+		}
+	},
+
+	"kkcg": {
+		"type": "big",
+		"cs": {
+			"title": "KKCG intranet",
+			"description": "Vývoj frontendu pro intranet společnosti KKCG Real Estate a.s.",
+			"client": "Etnetera a.s.",
+			"scope": "Frontend, Responzivní šablona",
+			"technologies": "Java, Liferay, HTML5, CSS3, JS",
+			"date": "léto 2015",
+			"link": [
+				false,
+				"Aplikace není veřejně dostupná"
+			],
+			"image": "kkcg.jpg"
+		},
+		"en": {
+			"title": "KKCG intranet",
+			"description": "Frontend development for intranet application of company KKCG Real Estate a.s.",
+			"client": "Etnetera a.s.",
+			"scope": "Frontend, Responsive template",
+			"technologies": "Java, Liferay, HTML5, CSS3, JS",
+			"date": "léto 2015",
+			"link": [
+				false,
+				"Application is not public"
+			],
+			"image": "kkcg.jpg"
+		}
+	},
+
+	"slovakTelekom": {
+		"type": "big",
+		"cs": {
+			"title": "Slovak Telekom",
+			"description": "Frontend řešení pro uživatelský panel a objednávkový systém",
+			"client": "Slovak Telekom, a. s.",
+			"scope": "Frontend, Responzivní šablona",
+			"technologies": "Java, Liferay, HTML5, CSS3, JS",
+			"date": "jaro 2015",
+			"link": ["https://telekom.sk"],
+			"image": "slovak-telekom.jpg"
+		},
+		"en": {
+			"title": "Slovak Telekom",
+			"description": "Frontend solution for user panel and ordering system.",
+			"client": "Slovak Telekom, a.s.",
+			"scope": "Frontend, Responsive template",
+			"technologies": "Java, Liferay, HTML5, CSS3, JS",
+			"date": "spring 2015",
+			"link": ["https://telekom.sk"],
+			"image": "slovak-telekom.jpg"
+		}
+	},
+
+	"emtc": {
+		"type": "big",
+		"cs": {
+			"title": "Nový web společnosti EMTC",
+			"description": "Webová šablona a backend s multijazyčnou podporou psaný v PHP.",
+			"client": "EMTC - Czech, a.s.",
+			"scope": "Backend, Responzivní šablona",
+			"technologies": "PHP5, HTML5, CSS3",
+			"date": "zima 2014",
+			"length": "cca 120 hodin",
+			"link": [
+				"http://www.emtc.cz"
+			],
+			"image": "emtc.jpg"
+		},
+		"en": {
+			"title": "New web for EMTC - Czech",
+			"description": "Web template and backend layer with multilanguage support written in PHP.",
+			"client": "EMTC - Czech, a.s.",
+			"scope": "Backend, Responsive template",
+			"technologies": "PHP5, HTML5, CSS3",
+			"date": "winter 2014",
+			"length": "about 120 hours",
+			"link": [
+				"http://www.emtc.cz"
+			],
+			"image": "emtc.jpg"
+		}
+	},
+
+	"emtcKariera": {
+		"type": "big",
+		"cs": {
+			"title": "Kariérní web společnosti EMTC",
+			"description": "Webová šablona a backend s multijazyčnou podporou psaný v PHP.",
+			"client": "EMTC - Czech, a.s.",
+			"scope": "Backend, Responzivní šablona",
+			"technologies": "PHP5, HTML5, CSS3",
+			"date": "podzim 2014",
+			"length": "cca 64 hodin",
+			"link": [
+				"http://kariera.emtc.cz"
+			],
+			"image": "emtc-kariera.jpg"
+		},
+		"en": {
+			"title": "EMTC Career web",
+			"description": "Web template and backend layer with multilanguage support written in PHP.",
+			"client": "EMTC - Czech, a.s.",
+			"scope": "Backend, Responsive template",
+			"technologies": "PHP5, HTML5, CSS3",
+			"date": "autumn 2014",
+			"length": "about 64 hours",
+			"link": [
+				"http://kariera.emtc.cz"
+			],
+			"image": "emtc-kariera.jpg"
+		}
+	},
+
+	"lipaLearning2": {
+		"type": "big",
+		"cs": {
+			"title": "Nový responzivní web Lipa Learning",
+			"description": "Dodání kompletní responzivní šablony pro společnost Lipa Learning.",
+			"client": "Lipa Learning s.r.o.",
+			"scope": "Responzivní frontend, management",
+			"technologies": "HTML5, CSS3, Python",
+			"date": "léto-podzim 2014",
+			"link": ["http://www.lipalearning.com"],
+			"image": "lipa2.jpg"
+		},
+		"en": {
+			"title": "New responsive web Lipa Learning",
+			"description": "Complete responsive web solution for Lipa Learning.",
+			"client": "Lipa Learning s.r.o.",
+			"scope": "Responsive frontend, management",
+			"technologies": "HTML5, CSS3, Python",
+			"date": "summer-autumn 2014",
+			"link": ["http://www.lipalearning.com"],
+			"image": "lipa2.jpg"
+		}
+	},
+
+	"lipaBear": {
+		"type": "big",
+		"cs": {
+			"title": "HTML5 verze hry Lipa Bear",
+			"description": "Implementace vzdělávací hry Lipa Bear pro webové prohlížeče v HTML5 a JavaScriptu. Široké využití CSS3 animací vč. animace jednotlivých postaviček a přehrávání doprovodných zvuků.",
+			"client": "Lipa Learning, s.r.o.",
+			"scope": "Portace pro webové prohlížeče",
+			"technologies": "HTML5, CSS3",
+			"date": "léto 2014",
+			"length": "cca 100 hodin",
+			"link": [false, "demo není veřejně k dispozici"],
+			"image": "lipa-bear.jpg"
+		},
+		"en": {
+			"title": "HTML5 Lipa Bear game",
+			"description": "Implementation of educational game Lipa Bear for web browsers in HTML5 and JavaScript. Using CSS3 animations including characters animation and play the sounds effects.",
+			"client": "Lipa Learning, s.r.o.",
+			"scope": "Porting for web browsers",
+			"technologies": "HTML5, CSS3, JS",
+			"date": "summer 2014",
+			"length": "about 100 hours",
+			"link": [false, "Demo is not publicly available"],
+			"image": "lipa-bear.jpg"
+		}
+	},
+
+	"lipaLearning": {
+		"type": "big",
+		"cs": {
+			"title": "Responzivní web Lipa Learning",
+			"description": "Dodání responzivní šablony (zobrazení pro mobil a tablet) pro již hotovou šablonu webu Lipa Learning. Správa webu a časté aktualizace.",
+			"client": "Lipa Learning s.r.o.",
+			"scope": "Responzivní šablona (mobil, tablet)",
+			"technologies": "HTML5, CSS3, nette/latte",
+			"date": "jaro 2014",
+			"length": "cca 40 hodin",
+			"link": ["http://www.lipalearning.com"],
+			"image": "lipalearning-1.jpg"
+		},
+		"en": {
+			"title": "Responsive web Lipa Learning",
+			"description": "Responsive templates (mobile and tablet view) for Lipa Learning company website. Info updates.",
+			"client": "Lipa Learning s.r.o.",
+			"scope": "Responsive template (mobile, tablet)",
+			"technologies": "HTML5, CSS3, nette/latte",
+			"date": "spring 2014",
+			"length": "about 40 hours",
+			"link": ["http://www.lipalearning.com"],
+			"image": "lipalearning-1.jpg"
+		}
+	},
+
+	"planovaniFinanci": {
+		"type": "big",
+		"cs": {
+			"title": "Plánování financí.cz",
+			"description": "Kompletní dodání webového řešení vč. dodání vlastního redakčního systému <a target=\"_blank\" href=\"http://easyadmin.cz\">Easy Admin System 3</a>.",
+			"client": "Stanislav Soukup",
+			"scope": "grafika, CMS, šablona, webhosting",
+			"technologies": "PHP5, MySQL, HTML5, CSS3",
+			"date": "jaro 2013",
+			"length": "cca 100 hodin",
+			"link": ["http://www.planovanifinanci.cz"],
+			"image": "planovani-financi.jpg"
+		},
+		"en": {
+			"title": "Plánování financí.cz (Finance)",
+			"description": "Complete solution including my owm content management system <a target=\"_blank\" href=\"http://easyadmin.cz\">Easy Admin System 3</a>.",
+			"client": "Stanislav Soukup",
+			"scope": "graphics, CMS, template, webhosting",
+			"technologies": "PHP5, MySQL, HTML5, CSS3",
+			"date": "spring 2013",
+			"length": "about 100 hours",
+			"link": ["http://www.planovanifinanci.cz"],
+			"image": "planovani-financi.jpg"
+		}
+	},
+
+	"skokani": {
+		"type": "big",
+		"cs": {
+			"title": "Seznam skokanů od Seznam.cz",
+			"description": "Implementace grafiky, nakódování webových šablon a backend pro zpracování dodaných textových výstupů.",
+			"client": "Seznam.cz, a.s.",
+			"scope": "backend, frontend",
+			"technologies": "PHP, HTML, CSS, JS",
+			"date": "2011",
+			"length": "cca 40 hodin",
+			"link": ["http://skokani.seznam.cz"],
+			"image": "skokani-seznam.jpg"
+		},
+		"en": {
+			"title": "Seznam skokanů by Seznam.cz",
+			"description": "Frontend and backend solution.",
+			"client": "Seznam.cz, a.s.",
+			"scope": "Backend, Frontend",
+			"technologies": "PHP, HTML, CSS, JS",
+			"date": "2011",
+			"length": "about 40 hours",
+			"link": ["http://skokani.seznam.cz"],
+			"image": "skokani-seznam.jpg"
+		}
+	},
+
+	"eadyAdmin": {
+		"type": "big",
+		"cs": {
+			"title": "CMS Easy Admin System 3",
+			"description": "Vlastní redakční systém (CMS) s důrazem na jednoduché používání umožňující přidávat na jednotlivé stránky moduly pomocí přetahování myší (drag &amp; drop).",
+			"client": "vlastní projekt",
+			"scope": "grafika, backend, frontend",
+			"technologies": "PHP, MySQL, HTML, CSS, JS",
+			"date": "2012",
+			"length": "3 měsíce",
+			"link": [false, "demo ukázka není k dispozici"],
+			"image": "eas3.jpg"
+		},
+		"en": {
+			"title": "CMS Easy Admin System 3",
+			"description": "My own content management system with focus on easy use. Modules with content can be dragged and dropped into the page with mouse.",
+			"client": "my own project",
+			"scope": "graphics, backend, frontend",
+			"technologies": "PHP, MySQL, HTML, CSS, JS",
+			"date": "2012",
+			"length": "3 months",
+			"link": [false, "demo not available"],
+			"image": "eas3.jpg"
+		}
+	},
+
+	"slovnikLearning": {
+		"type": "big",
+		"cs": {
+			"title": "Aplikace Slovník Procvičování",
+			"description": "Frontend vzdělávací aplikace Procvičování od Seznam.cz. Implementace UI pro různé procvičovací úlohy, přehrávání slov pomocí HTML5 audio a implementace virtuální klávesnice.",
+			"client": "Seznam.cz, a.s.",
+			"scope": "Frontend",
+			"technologies": "Python, HTML, CSS, JS",
+			"date": "2011",
+			"link": ["http://slovnik.seznam.cz/learn"],
+			"image": "slovnik_exam2.jpg"
+		},
+		"en": {
+			"title": "E-learning dictionary app",
+			"description": "Frontend for e-learning application by Seznam.cz. Web UI implementation for practical exercises, playing words with HTML5 audio and implementation of a virtual keyboard.",
+			"client": "Seznam.cz, a.s.",
+			"scope": "Frontend",
+			"technologies": "HTML, CSS, JS",
+			"date": "2011",
+			"link": ["http://slovnik.seznam.cz/learn"],
+			"image": "slovnik_exam2.jpg"
+		}
+	},
+
+	"banner": {
+		"type": "banner"
+	},
+
+	"smobil": {
+		"type": "medium",
+		"cs": {
+			"title": "Seznam.cz na mobil",
+			"description": "Webový frontend pro prezentaci portfolia všech služeb Seznam.cz na mobil a aplikace generátor QR kódu.",
+			"client": "Seznam.cz, a.s.",
+			"scope": "Frontend",
+			"technologies": "Python, HTML, CSS, JS",
+			"date": "2011",
+			"length": "-",
+			"link": ["http://smobil.cz"],
+			"image": "smobil_hp.jpg"
+		},
+		"en": {
+			"title": "Smobil.cz",
+			"description": "Web frontend of portfolio services Seznam.cz for smartphones and application QR generator.",
+			"client": "Seznam.cz, a.s.",
+			"scope": "Frontend",
+			"technologies": "Python, HTML, CSS, JS",
+			"date": "2011",
+			"length": "-",
+			"link": ["http://smobil.cz"],
+			"image": "smobil_hp.jpg"
+		}
+	},
+
+	"lipaVillage": {
+		"type": "medium",
+		"cs": {
+			"title": "Web Lipa Village",
+			"description": "Kompletní realizace webového blogu. Odpovědnost za celý produkt. Frontend (nakódování šablon) i backend řešení. Podpora více jazyků. Postaveno na platformě Wordpress.",
+			"client": "Lipa Learning, s.r.o.",
+			"scope": "Management, CMS, šablony",
+			"technologies": "Wordpress, HTML5, CSS3, JS",
+			"date": "podzim 2014",
+			"length": "cca 80 hodin",
+			"link": ["http://lipavillage.com"],
+			"image": "lipavillage.jpg"
+		},
+		"en": {
+			"title": "Lipa Village web site",
+			"description": "Complete implementation of web-blog. Product management, frontend (web templates conding), backend solution. Multilanguage support. Based on Wordpress CMS.",
+			"client": "Lipa Learning, s.r.o.",
+			"scope": "Management, CMS, templates",
+			"technologies": "PHP, MySQL, HTML5, CSS3",
+			"date": "autumn 2014",
+			"length": "about 80 hours",
+			"link": ["http://lipavillage.com"],
+			"image": "lipavillage.jpg"
+		}
+	},
+
+	"rollpap": {
+		"type": "medium",
+		"cs": {
+			"title": "E-shop Rollpap.cz",
+			"description": "Elektronický obchod Rollpap.cz s možností registrace zákazníků a objednávek.",
+			"client": "Rollpap, s.r.o.",
+			"scope": "CMS, Templates",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2010",
+			"length": "-",
+			"link": ["http://rollpap.cz"],
+			"image": "rollpap.jpg"
+		},
+		"en": {
+			"title": "Rollpap.cz e-shop",
+			"description": "",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "2010",
+			"length": "-",
+			"link": ["http://rollpap.cz", ""],
+			"image": "rollpap.jpg"
+		}
+	},
+
+	"autoAkord": {
+		"type": "medium",
+		"cs": {
+			"title": "Webová prezentace Auto Akord",
+			"description": "Návrh grafického designu a implementace frontendu.",
+			"client": "Auto Akord Rakovník",
+			"scope": "Graphics, Frontend",
+			"technologies": "HTML, CSS",
+			"date": "2007",
+			"length": "-",
+			"link": [false, "Web již bohužel není funkční"],
+			"image": "autoakord.jpg"
+		},
+		"en": {
+			"title": "Auto Akord Web Site",
+			"description": "Graphic design, frontend implementation.",
+			"client": "Auto Akord Rakovník",
+			"scope": "Graphics, Frontend",
+			"technologies": "HTML, CSS",
+			"date": "2007",
+			"length": "-",
+			"link": [false, "Out of order"],
+			"image": "autoakord.jpg"
+		}
+	},
+
+	"bodyfitness": {
+		"type": "medium",
+		"cs": {
+			"title": "Magazín Bodyfitness.cz",
+			"description": "Kompletní realizace webového magazínu o cvičení a fitness. Postaveno na vlastním redakčním systému Easy Admin System 2. Součástí byly i diskuzní fóra, online poradna a další funkce.",
+			"client": "Stanislav Soukup",
+			"scope": "Grafika, CMS, šablony",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2010",
+			"length": "cca 160 hodin",
+			"link": ["http://bodyfitness.cz", "Doména již mimo provoz"],
+			"image": "bodyfitness.jpg"
+		},
+		"en": {
+			"title": "Bodyfitness.cz Magazine",
+			"description": "Complete implementation of e-zine about fitness. Based on my own CMS.",
+			"client": "Stanislav Soukup",
+			"scope": "Graphics, CMS, templates",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2010",
+			"length": "about 160 hours",
+			"link": ["http://bodyfitness.cz", "Domain is out of order"],
+			"image": "bodyfitness.jpg"
+		}
+	},
+
+	"discolagoon": {
+		"type": "medium",
+		"cs": {
+			"title": "Web music klubu Lagoon Slaný",
+			"description": "Kompletní realizace webu vč. dodání vlastního redakčního systému.",
+			"client": "Music club Lagoon",
+			"scope": "Grafika, CMS, šablony",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2011",
+			"length": "2 týdny",
+			"link": ["http://discolagoon.cz", "mimo provoz"],
+			"image": "discolagoon.jpg"
+		},
+		"en": {
+			"title": "Music club Lagoon web site",
+			"description": "Graphic design, my own CMS, temlates etc.",
+			"client": "Music club Lagoon",
+			"scope": "GD, CMS, templates",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2011",
+			"length": "2 weeks",
+			"link": ["http://discolagoon.cz", "out of order"],
+			"image": "discolagoon.jpg"
+		}
+	},
+
+	"kippSportmal": {
+		"type": "medium",
+		"cs": {
+			"title": "Webová prezentace Kipp Sportmal",
+			"description": "Návrh grafického designu, nakódování statické šablony, backend, nasazení a správa webu.",
+			"client": "Kipp Sportmal, s.r.o.",
+			"scope": "Grafika, šablony",
+			"technologies": "PHP, HTML, CSS",
+			"date": "2013",
+			"length": "cca 40 hodin",
+			"link": ["http://kippsportmal.cz"],
+			"image": "kippsportmal.jpg"
+		},
+		"en": {
+			"title": "Kipp Sportmal web site",
+			"description": "Graphic design, templates coding, backend, deployment and management.",
+			"client": "Kipp Sportmal, s.r.o.",
+			"scope": "Graphics, templates",
+			"technologies": "PHP, HTML, CSS",
+			"date": "2013",
+			"length": "about 40 hours",
+			"link": ["http://kippsportmal.cz"],
+			"image": "kippsportmal.jpg"
+		}
+	},
+
+	"fbLipaTabs": {
+		"type": "medium",
+		"cs": {
+			"title": "Facebook stránka Lipa Learning",
+			"description": "-",
+			"client": "Lipa Learning, s.r.o.",
+			"scope": "šablony",
+			"technologies": "HTML, CSS",
+			"date": "2014",
+			"length": "2 dny",
+			"link": ["https://facebook.com/LipaLearning"],
+			"image": "lipa-facebook-tabs.jpg"
+		},
+		"en": {
+			"title": "Facebook tabs Lipa Learning",
+			"description": "-",
+			"client": "Lipa Learning, s.r.o.",
+			"scope": "templates",
+			"technologies": "HTML, CSS",
+			"date": "2014",
+			"length": "2 days",
+			"link": ["https://facebook.com/LipaLearning"],
+			"image": "lipa-facebook-tabs.jpg"
+		}
+	},
+
+	"farmaHedecko": {
+		"type": "mini",
+		"cs": {
+			"title": "Farma Hedecko",
+			"description": "Kompletní řešení (grafika, CMS, šablony)",
+			"client": "Farma Hedecko Čistá",
+			"scope": "",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2008",
+			"length": "2 týdny",
+			"link": ["http://farma-hedecko.cz"],
+			"image": "farma-hedecko.jpg"
+		},
+		"en": {
+			"title": "Farma Hedecko",
+			"description": "Complete solution (graphic design, CMS, templates)",
+			"client": "Farma Hedecko Čistá",
+			"scope": "",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2008",
+			"length": "2 weeks",
+			"link": ["http://farma-hedecko.cz"],
+			"image": "farma-hedecko.jpg"
+		}
+	},
+
+	"rcsystem": {
+		"type": "mini",
+		"cs": {
+			"title": "Satelitní sledování vozidel",
+			"description": "",
+			"client": "Monitoring RC System s.r.o.",
+			"scope": "Frontend řešení",
+			"technologies": "HTML, CSS, JS",
+			"date": "2008",
+			"length": "2 týdny",
+			"link": ["http://satelitnisledovani.cz"],
+			"image": "rcsystem.jpg"
+		},
+		"en": {
+			"title": "Car monitoring system",
+			"description": "",
+			"client": "Monitoring RC System s.r.o.",
+			"scope": "Frontend solution",
+			"technologies": "HTML, CSS, JS",
+			"date": "2008",
+			"length": "2 weeks",
+			"link": ["http://satelitnisledovani.cz"],
+			"image": "rcsystem.jpg"
+		}
+	},
+
+	"heelys": {
+		"type": "mini",
+		"cs": {
+			"title": "Web Heelys.cz",
+			"description": "",
+			"client": "Heelys",
+			"scope": "",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2007",
+			"length": "",
+			"link": ["http://heelys.cz", "web byl již aktualizován"],
+			"image": "heelys.jpg"
+		},
+		"en": {
+			"title": "Heelys.cz web site",
+			"description": "",
+			"client": "Heelys",
+			"scope": "",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2007",
+			"length": "",
+			"link": ["http://heelys.cz", "web is updated"],
+			"image": "heelys.jpg"
+		}
+	},
+
+	"aionet": {
+		"type": "mini",
+		"cs": {
+			"title": "Web aionet.cz",
+			"description": "Frontend a backend řešení webu aionet.cz.",
+			"client": "aionet media",
+			"scope": "Frontend, backend",
+			"technologies": "PHP, HTML, CSS",
+			"date": "2012",
+			"length": "-",
+			"link": ["http://aionet.cz", "mimo provoz"],
+			"image": "aionet.jpg"
+		},
+		"en": {
+			"title": "aionet.cz web site",
+			"description": "Frontend and backend solution aionet.cz.",
+			"client": "aionet media",
+			"scope": "Frontend, backend",
+			"technologies": "PHP, HTML, CSS",
+			"date": "2012",
+			"length": "-",
+			"link": ["http://aionet.cz", "mimo provoz"],
+			"image": "aionet.jpg"
+		}
+	},
+
+	"czsound": {
+		"type": "mini",
+		"cs": {
+			"title": "Web CZSound.cz",
+			"description": "Kompletní řešení. Postaveno na vlastním CMS.",
+			"client": "Petr Elznic",
+			"scope": "",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2006",
+			"length": "",
+			"link": ["http://czsound.cz"],
+			"image": "czsound.jpg"
+		},
+		"en": {
+			"title": "CZSound.cz web site",
+			"description": "Complete solution. Based on my own CMS.",
+			"client": "Petr Elznic",
+			"scope": "",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2006",
+			"length": "",
+			"link": ["http://czsound.cz"],
+			"image": "czsound.jpg"
+		}
+	},
+
+	"kuchynet": {
+		"type": "mini",
+		"cs": {
+			"title": "Kuchynet.cz",
+			"description": "Frontned řešení aplikace pro návrh kuchyní.",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "2011",
+			"length": "",
+			"link": ["", ""],
+			"image": "kuchynet.jpg"
+		},
+		"en": {
+			"title": "Kuchynet.cz",
+			"description": "Frontend solution of application for kitchen designing.",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "2011",
+			"length": "",
+			"link": ["", ""],
+			"image": "kuchynet.jpg"
+		}
+	},
+
+	"levnyZvuk": {
+		"type": "mini",
+		"cs": {
+			"title": "Levný zvuk.cz",
+			"description": "Kompletní řešení",
+			"client": "CZSound",
+			"scope": "Grafika, frontend, backend",
+			"technologies": "",
+			"date": "2011",
+			"length": "-",
+			"link": [false, "mimo provoz"],
+			"image": "levny-zvuk.jpg"
+		},
+		"en": {
+			"title": "Levný zvuk.cz",
+			"description": "Complete solution",
+			"client": "CZSound",
+			"scope": "Graphics, frontend, backend",
+			"technologies": "",
+			"date": "2011",
+			"length": "-",
+			"link": [false, "out of order"],
+			"image": "levny-zvuk.jpg"
+		}
+	},
+
+	"pearescope": {
+		"type": "mini",
+		"cs": {
+			"title": "Frontend pro Pearescope",
+			"description": "Frontend pro prototyp služby Pearescope.com s využitím Google Maps API pro zobrazení historie polohy uživatelů a uživatelské profily.",
+			"client": "Pearescope Inc.",
+			"scope": "Frontend",
+			"technologies": "HTML, CSS, JS",
+			"date": "2012",
+			"length": "",
+			"link": ["http://pearescope.com", "mimo provoz"],
+			"image": "pearescope.jpg"
+		},
+		"en": {
+			"title": "Frontend Pearescope",
+			"description": "Frontend solution for Pearescope.com website using Google Maps API for history location view and user profiles.",
+			"client": "Pearescope Inc.",
+			"scope": "Frontend",
+			"technologies": "HTML, CSS, JS",
+			"date": "2012",
+			"length": "",
+			"link": ["http://pearescope.com", "out of order"],
+			"image": "pearescope.jpg"
+		}
+	},
+
+	"labazaar": {
+		"type": "mini",
+		"cs": {
+			"title": "Web klubu LA BAZAAR",
+			"description": "",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "",
+			"length": "",
+			"link": ["", ""],
+			"image": "labazaar.jpg"
+		},
+		"en": {
+			"title": "LA BAZAAR club web site",
+			"description": "",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "",
+			"length": "",
+			"link": ["", ""],
+			"image": "labazaar.jpg"
+		}
+	},
+
+	"deliveryPizza": {
+		"type": "mini",
+		"cs": {
+			"title": "Delivery Pizza Rakovník",
+			"description": "Kompletní řešení (grafika, CMS, šablony)",
+			"client": "Michal Bečvář",
+			"scope": "",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2005",
+			"length": "1 týden",
+			"link": ["http://deliverypizza.cz", "mimo provoz"],
+			"image": "deliverypizza.jpg"
+		},
+		"en": {
+			"title": "Delivery Pizza Rakovník",
+			"description": "Complete solution (graphic design, CMS, templates)",
+			"client": "Michal Bečvář",
+			"scope": "",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2005",
+			"length": "1 week",
+			"link": ["http://deliverypizza.cz", "out of order"],
+			"image": "deliverypizza.jpg"
+		}
+	},
+
+	"oldiesBar": {
+		"type": "mini",
+		"cs": {
+			"title": "Oldies bar Kladno",
+			"description": "Kompletní řešení (grafika, CMS, šablony)",
+			"client": "Stanislav Soukup",
+			"scope": "Grafika, CMS",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2010",
+			"length": "1 týden",
+			"link": ["http://oldiesbar.cz", "mimo provoz"],
+			"image": "oldiesbar.jpg"
+		},
+		"en": {
+			"title": "Oldies bar Kladno",
+			"description": "Complete solution (graphic design, CMS, templates)",
+			"client": "Stanislav Soukup",
+			"scope": "Graphics, CMS",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2010",
+			"length": "1 week",
+			"link": ["http://oldiesbar.cz", "out of order"],
+			"image": "oldiesbar.jpg"
+		}
+	},
+
+	"elzaDesign": {
+		"type": "mini",
+		"cs": {
+			"title": "Elza Design.cz",
+			"description": "",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "",
+			"length": "",
+			"link": ["", ""],
+			"image": "elzadesign_cz.jpg"
+		},
+		"en": {
+			"title": "Elza Design.cz",
+			"description": "",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "",
+			"length": "",
+			"link": ["", ""],
+			"image": "elzadesign_cz.jpg"
+		}
+	},
+
+	"djelza": {
+		"type": "mini",
+		"cs": {
+			"title": "DJ Elza.cz",
+			"description": "",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "",
+			"length": "",
+			"link": ["", ""],
+			"image": "djelza.jpg"
+		},
+		"en": {
+			"title": "DJ Elza Web Site",
+			"description": "",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "",
+			"length": "",
+			"link": ["", ""],
+			"image": "djelza.jpg"
+		}
+	},
+
+	"hulman": {
+		"type": "mini",
+		"cs": {
+			"title": "Hulman.cz",
+			"description": "",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "",
+			"length": "",
+			"link": ["", ""],
+			"image": "hulman.jpg"
+		},
+		"en": {
+			"title": "Hulman.cz",
+			"description": "",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "",
+			"length": "",
+			"link": ["", ""],
+			"image": "hulman.jpg"
+		}
+	},
+
+	"vsetaty": {
+		"type": "mini",
+		"cs": {
+			"title": "Web pro Obec Všetaty",
+			"description": "Realizace celého webu pro Obec Všetaty vč. vlastního CMS",
+			"client": "",
+			"scope": "",
+			"technologies": "PHP, MySQL",
+			"date": "2008",
+			"length": "",
+			"link": ["", ""],
+			"image": "obec-vsetaty.jpg"
+		},
+		"en": {
+			"title": "Obec Všetaty village",
+			"description": "Complete solution (graphics, CMS)",
+			"client": "",
+			"scope": "",
+			"technologies": "PHP, MySQL",
+			"date": "2008",
+			"length": "",
+			"link": ["", ""],
+			"image": "obec-vsetaty.jpg"
+		}
+	},
+
+	"xchatSrazy": {
+		"type": "mini",
+		"cs": {
+			"title": "Vánoční srazy XChatu 2008-2009",
+			"description": "",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "",
+			"length": "",
+			"link": ["", ""],
+			"image": "vanocni-sraz09.jpg"
+		},
+		"en": {
+			"title": "Xmas meetings with XChat.cz",
+			"description": "",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "",
+			"length": "",
+			"link": ["", ""],
+			"image": "vanocni-sraz09.jpg"
+		}
+	}
+}

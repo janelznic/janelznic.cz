@@ -1,0 +1,12 @@
+Source: janelznic-web
+Section: unknown
+Priority: extra
+Maintainer: Jan Elznic <jan@elznic.com>
+Build-Depends: debhelper (>= 7.0.0)
+Standards-Version: 3.7.3
+Homepage: <insert the upstream URL, if relevant>
+
+Package: janelznic-web
+Architecture: any
+Depends: apache2 (>= 2.2.16), libapache2-mod-php5 (>= 5.1.5), php5-common (>= 5.1.5)
+Description: Jan Elznic Homepage 2.0
