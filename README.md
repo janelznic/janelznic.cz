@@ -21,21 +21,21 @@ Pre-installation requirments
 
 Installation instructions
 -------------------------
-* Clone git repository:
+1. Clone git repository:
 
- `$ git clone git@github.com:janelznic/janelznic.git`
+  `$ git clone git@github.com:janelznic/janelznic.git`
 
-* Go to repository directory 'janelznic':
+2. Go to repository directory 'janelznic':
 
- `$ cd janelznic`
+  `$ cd janelznic`
 
-* Install all dependencies:
+3. Install all dependencies:
 
- `$ yarn`
+  `$ yarn`
 
 
 Development version
 -------------------
-* Watch all `*.less|*.css` files changes with Grunt to build standalone `*.css` vector bundle file
+1. Watch all `*.less|*.css` files changes with Grunt to build standalone `*.css` vector bundle file
 
   `$ grunt watch`
