@@ -1,3 +1,9 @@
+janelznic-web (2.4) stable; urgency=low
+
+  * Migrated Debian package to PHP 7.0
+
+ -- Jan Elznic <jan@elznic.com>  Fri, 08 Mar 2019 20:55:00 +0100
+
 janelznic-web (2.3) stable; urgency=low
 
   * Updated CV
