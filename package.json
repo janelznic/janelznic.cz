@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "svn",
-    "url": "https://svn.elznic.net/janelznic"
+    "url": "https://gitlab.elznic.net/private/janelznic"
   },
   "author": "Jan Elznic",
   "license": "ISC",
@@ -21,4 +21,3 @@
     "grunt-contrib-watch": "~0.4.0"
   }
 }
-
