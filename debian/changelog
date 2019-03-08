@@ -1,3 +1,9 @@
+janelznic-web (2.4.2) stable; urgency=low
+
+  * Font Awesome fixed
+
+ -- Jan Elznic <jan@elznic.com>  Fri, 08 Mar 2019 22:10:00 +0100
+
 janelznic-web (2.4.1) stable; urgency=low
 
   * Font Awesome updated
