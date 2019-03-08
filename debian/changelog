@@ -1,3 +1,9 @@
+janelznic-web (2.4.3) stable; urgency=low
+
+  * Favicon
+
+ -- Jan Elznic <jan@elznic.com>  Fri, 08 Mar 2019 22:25:00 +0100
+
 janelznic-web (2.4.2) stable; urgency=low
 
   * Font Awesome fixed
