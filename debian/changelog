@@ -1,3 +1,12 @@
+janelznic-web (2.5) stable; urgency=low
+
+  * Chaged data in post list on administration(columns)
+  * Css support for administration pages
+  * Quick redirect plugin
+  * Aditional data and filtering on post list(columns)
+
+ -- Jan Ptacek <jan.ptacek@elzasoft.com>  Thu, 15 Aug 2019 13:24:00 +0100
+ 
 janelznic-web (2.4.3) stable; urgency=low
 
   * Favicon
