@@ -1,0 +1,9 @@
+# Node modules
+node_modules/
+
+# Logs
+wwwroot/log/debug.log
+
+# Copied config files
+wwwroot/config/application.config.php
+wwwroot/config/templates.config.php
