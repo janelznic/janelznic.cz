@@ -191,8 +191,13 @@
 			"image": "o2.jpg"
 		}
 	},
+
+	"banner": {
+		"type": "banner"
+	},
+
 	"getmore": {
-		"type": "big",
+		"type": "medium",
 		"cs": {
 			"title": "Web pro službu Getmore.cz",
 			"description": "Dodávka kompletního responzivního webu postaveného na řešení CMS Wordpress mimo dodávky grafického designu.",
@@ -216,7 +221,7 @@
 	},
 
 	"kkcg": {
-		"type": "big",
+		"type": "medium",
 		"cs": {
 			"title": "KKCG intranet",
 			"description": "Vývoj frontendu pro intranet společnosti KKCG Real Estate a.s.",
@@ -246,7 +251,7 @@
 	},
 
 	"slovakTelekom": {
-		"type": "big",
+		"type": "medium",
 		"cs": {
 			"title": "Slovak Telekom",
 			"description": "Frontend řešení pro uživatelský panel a objednávkový systém",
@@ -270,7 +275,7 @@
 	},
 
 	"emtc": {
-		"type": "big",
+		"type": "medium",
 		"cs": {
 			"title": "Nový web společnosti EMTC",
 			"description": "Webová šablona a backend s multijazyčnou podporou psaný v PHP.",
@@ -300,7 +305,7 @@
 	},
 
 	"emtcKariera": {
-		"type": "big",
+		"type": "medium",
 		"cs": {
 			"title": "Kariérní web společnosti EMTC",
 			"description": "Webová šablona a backend s multijazyčnou podporou psaný v PHP.",
@@ -330,7 +335,7 @@
 	},
 
 	"lipaLearning2": {
-		"type": "big",
+		"type": "medium",
 		"cs": {
 			"title": "Nový responzivní web Lipa Learning",
 			"description": "Dodání kompletní responzivní šablony pro společnost Lipa Learning.",
@@ -353,34 +358,8 @@
 		}
 	},
 
-	"lipaBear": {
-		"type": "big",
-		"cs": {
-			"title": "HTML5 verze hry Lipa Bear",
-			"description": "Implementace vzdělávací hry Lipa Bear pro webové prohlížeče v HTML5 a JavaScriptu. Široké využití CSS3 animací vč. animace jednotlivých postaviček a přehrávání doprovodných zvuků.",
-			"client": "Lipa Learning, s.r.o.",
-			"scope": "Portace pro webové prohlížeče",
-			"technologies": "HTML5, CSS3",
-			"date": "léto 2014",
-			"length": "cca 100 hodin",
-			"link": [false, "demo není veřejně k dispozici"],
-			"image": "lipa-bear.jpg"
-		},
-		"en": {
-			"title": "HTML5 Lipa Bear game",
-			"description": "Implementation of educational game Lipa Bear for web browsers in HTML5 and JavaScript. Using CSS3 animations including characters animation and play the sounds effects.",
-			"client": "Lipa Learning, s.r.o.",
-			"scope": "Porting for web browsers",
-			"technologies": "HTML5, CSS3, JS",
-			"date": "summer 2014",
-			"length": "about 100 hours",
-			"link": [false, "Demo is not publicly available"],
-			"image": "lipa-bear.jpg"
-		}
-	},
-
 	"lipaLearning": {
-		"type": "big",
+		"type": "medium",
 		"cs": {
 			"title": "Responzivní web Lipa Learning",
 			"description": "Dodání responzivní šablony (zobrazení pro mobil a tablet) pro již hotovou šablonu webu Lipa Learning. Správa webu a časté aktualizace.",
@@ -405,34 +384,8 @@
 		}
 	},
 
-	"planovaniFinanci": {
-		"type": "big",
-		"cs": {
-			"title": "Plánování financí.cz",
-			"description": "Kompletní dodání webového řešení vč. dodání vlastního redakčního systému <a target=\"_blank\" href=\"http://easyadmin.cz\">Easy Admin System 3</a>.",
-			"client": "Stanislav Soukup",
-			"scope": "grafika, CMS, šablona, webhosting",
-			"technologies": "PHP5, MySQL, HTML5, CSS3",
-			"date": "jaro 2013",
-			"length": "cca 100 hodin",
-			"link": ["http://www.planovanifinanci.cz"],
-			"image": "planovani-financi.jpg"
-		},
-		"en": {
-			"title": "Plánování financí.cz (Finance)",
-			"description": "Complete solution including my owm content management system <a target=\"_blank\" href=\"http://easyadmin.cz\">Easy Admin System 3</a>.",
-			"client": "Stanislav Soukup",
-			"scope": "graphics, CMS, template, webhosting",
-			"technologies": "PHP5, MySQL, HTML5, CSS3",
-			"date": "spring 2013",
-			"length": "about 100 hours",
-			"link": ["http://www.planovanifinanci.cz"],
-			"image": "planovani-financi.jpg"
-		}
-	},
-
 	"skokani": {
-		"type": "big",
+		"type": "medium",
 		"cs": {
 			"title": "Seznam skokanů od Seznam.cz",
 			"description": "Implementace grafiky, nakódování webových šablon a backend pro zpracování dodaných textových výstupů.",
@@ -458,7 +411,7 @@
 	},
 
 	"eadyAdmin": {
-		"type": "big",
+		"type": "medium",
 		"cs": {
 			"title": "CMS Easy Admin System 3",
 			"description": "Vlastní redakční systém (CMS) s důrazem na jednoduché používání umožňující přidávat na jednotlivé stránky moduly pomocí přetahování myší (drag &amp; drop).",
@@ -484,7 +437,7 @@
 	},
 
 	"slovnikLearning": {
-		"type": "big",
+		"type": "medium",
 		"cs": {
 			"title": "Aplikace Slovník Procvičování",
 			"description": "Frontend vzdělávací aplikace Procvičování od Seznam.cz. Implementace UI pro různé procvičovací úlohy, přehrávání slov pomocí HTML5 audio a implementace virtuální klávesnice.",
@@ -505,10 +458,6 @@
 			"link": ["http://slovnik.seznam.cz/learn"],
 			"image": "slovnik_exam2.jpg"
 		}
-	},
-
-	"banner": {
-		"type": "banner"
 	},
 
 	"smobil": {
@@ -534,136 +483,6 @@
 			"length": "-",
 			"link": ["http://smobil.cz"],
 			"image": "smobil_hp.jpg"
-		}
-	},
-
-	"lipaVillage": {
-		"type": "medium",
-		"cs": {
-			"title": "Web Lipa Village",
-			"description": "Kompletní realizace webového blogu. Odpovědnost za celý produkt. Frontend (nakódování šablon) i backend řešení. Podpora více jazyků. Postaveno na platformě Wordpress.",
-			"client": "Lipa Learning, s.r.o.",
-			"scope": "Management, CMS, šablony",
-			"technologies": "Wordpress, HTML5, CSS3, JS",
-			"date": "podzim 2014",
-			"length": "cca 80 hodin",
-			"link": ["http://lipavillage.com"],
-			"image": "lipavillage.jpg"
-		},
-		"en": {
-			"title": "Lipa Village web site",
-			"description": "Complete implementation of web-blog. Product management, frontend (web templates conding), backend solution. Multilanguage support. Based on Wordpress CMS.",
-			"client": "Lipa Learning, s.r.o.",
-			"scope": "Management, CMS, templates",
-			"technologies": "PHP, MySQL, HTML5, CSS3",
-			"date": "autumn 2014",
-			"length": "about 80 hours",
-			"link": ["http://lipavillage.com"],
-			"image": "lipavillage.jpg"
-		}
-	},
-
-	"rollpap": {
-		"type": "medium",
-		"cs": {
-			"title": "E-shop Rollpap.cz",
-			"description": "Elektronický obchod Rollpap.cz s možností registrace zákazníků a objednávek.",
-			"client": "Rollpap, s.r.o.",
-			"scope": "CMS, Templates",
-			"technologies": "PHP, MySQL, HTML, CSS",
-			"date": "2010",
-			"length": "-",
-			"link": ["http://rollpap.cz"],
-			"image": "rollpap.jpg"
-		},
-		"en": {
-			"title": "Rollpap.cz e-shop",
-			"description": "",
-			"client": "",
-			"scope": "",
-			"technologies": "",
-			"date": "2010",
-			"length": "-",
-			"link": ["http://rollpap.cz", ""],
-			"image": "rollpap.jpg"
-		}
-	},
-
-	"autoAkord": {
-		"type": "medium",
-		"cs": {
-			"title": "Webová prezentace Auto Akord",
-			"description": "Návrh grafického designu a implementace frontendu.",
-			"client": "Auto Akord Rakovník",
-			"scope": "Graphics, Frontend",
-			"technologies": "HTML, CSS",
-			"date": "2007",
-			"length": "-",
-			"link": [false, "Web již bohužel není funkční"],
-			"image": "autoakord.jpg"
-		},
-		"en": {
-			"title": "Auto Akord Web Site",
-			"description": "Graphic design, frontend implementation.",
-			"client": "Auto Akord Rakovník",
-			"scope": "Graphics, Frontend",
-			"technologies": "HTML, CSS",
-			"date": "2007",
-			"length": "-",
-			"link": [false, "Out of order"],
-			"image": "autoakord.jpg"
-		}
-	},
-
-	"bodyfitness": {
-		"type": "medium",
-		"cs": {
-			"title": "Magazín Bodyfitness.cz",
-			"description": "Kompletní realizace webového magazínu o cvičení a fitness. Postaveno na vlastním redakčním systému Easy Admin System 2. Součástí byly i diskuzní fóra, online poradna a další funkce.",
-			"client": "Stanislav Soukup",
-			"scope": "Grafika, CMS, šablony",
-			"technologies": "PHP, MySQL, HTML, CSS",
-			"date": "2010",
-			"length": "cca 160 hodin",
-			"link": ["http://bodyfitness.cz", "Doména již mimo provoz"],
-			"image": "bodyfitness.jpg"
-		},
-		"en": {
-			"title": "Bodyfitness.cz Magazine",
-			"description": "Complete implementation of e-zine about fitness. Based on my own CMS.",
-			"client": "Stanislav Soukup",
-			"scope": "Graphics, CMS, templates",
-			"technologies": "PHP, MySQL, HTML, CSS",
-			"date": "2010",
-			"length": "about 160 hours",
-			"link": ["http://bodyfitness.cz", "Domain is out of order"],
-			"image": "bodyfitness.jpg"
-		}
-	},
-
-	"discolagoon": {
-		"type": "medium",
-		"cs": {
-			"title": "Web music klubu Lagoon Slaný",
-			"description": "Kompletní realizace webu vč. dodání vlastního redakčního systému.",
-			"client": "Music club Lagoon",
-			"scope": "Grafika, CMS, šablony",
-			"technologies": "PHP, MySQL, HTML, CSS",
-			"date": "2011",
-			"length": "2 týdny",
-			"link": ["http://discolagoon.cz", "mimo provoz"],
-			"image": "discolagoon.jpg"
-		},
-		"en": {
-			"title": "Music club Lagoon web site",
-			"description": "Graphic design, my own CMS, temlates etc.",
-			"client": "Music club Lagoon",
-			"scope": "GD, CMS, templates",
-			"technologies": "PHP, MySQL, HTML, CSS",
-			"date": "2011",
-			"length": "2 weeks",
-			"link": ["http://discolagoon.cz", "out of order"],
-			"image": "discolagoon.jpg"
 		}
 	},
 
@@ -693,8 +512,60 @@
 		}
 	},
 
+	"lipaBear": {
+		"type": "mini",
+		"cs": {
+			"title": "HTML5 verze hry Lipa Bear",
+			"description": "Implementace vzdělávací hry Lipa Bear pro webové prohlížeče v HTML5 a JavaScriptu. Široké využití CSS3 animací vč. animace jednotlivých postaviček a přehrávání doprovodných zvuků.",
+			"client": "Lipa Learning, s.r.o.",
+			"scope": "Portace pro webové prohlížeče",
+			"technologies": "HTML5, CSS3",
+			"date": "léto 2014",
+			"length": "cca 100 hodin",
+			"link": [false, "demo není veřejně k dispozici"],
+			"image": "lipa-bear.jpg"
+		},
+		"en": {
+			"title": "HTML5 Lipa Bear game",
+			"description": "Implementation of educational game Lipa Bear for web browsers in HTML5 and JavaScript. Using CSS3 animations including characters animation and play the sounds effects.",
+			"client": "Lipa Learning, s.r.o.",
+			"scope": "Porting for web browsers",
+			"technologies": "HTML5, CSS3, JS",
+			"date": "summer 2014",
+			"length": "about 100 hours",
+			"link": [false, "Demo is not publicly available"],
+			"image": "lipa-bear.jpg"
+		}
+	},
+
+	"lipaVillage": {
+		"type": "mini",
+		"cs": {
+			"title": "Web Lipa Village",
+			"description": "Kompletní realizace webového blogu. Odpovědnost za celý produkt. Frontend (nakódování šablon) i backend řešení. Podpora více jazyků. Postaveno na platformě Wordpress.",
+			"client": "Lipa Learning, s.r.o.",
+			"scope": "Management, CMS, šablony",
+			"technologies": "Wordpress, HTML5, CSS3, JS",
+			"date": "podzim 2014",
+			"length": "cca 80 hodin",
+			"link": ["http://lipavillage.com"],
+			"image": "lipavillage.jpg"
+		},
+		"en": {
+			"title": "Lipa Village web site",
+			"description": "Complete implementation of web-blog. Product management, frontend (web templates conding), backend solution. Multilanguage support. Based on Wordpress CMS.",
+			"client": "Lipa Learning, s.r.o.",
+			"scope": "Management, CMS, templates",
+			"technologies": "PHP, MySQL, HTML5, CSS3",
+			"date": "autumn 2014",
+			"length": "about 80 hours",
+			"link": ["http://lipavillage.com"],
+			"image": "lipavillage.jpg"
+		}
+	},
+
 	"fbLipaTabs": {
-		"type": "medium",
+		"type": "mini",
 		"cs": {
 			"title": "Facebook stránka Lipa Learning",
 			"description": "-",
@@ -716,6 +587,136 @@
 			"length": "2 days",
 			"link": ["https://facebook.com/LipaLearning"],
 			"image": "lipa-facebook-tabs.jpg"
+		}
+	},
+
+	"planovaniFinanci": {
+		"type": "mini",
+		"cs": {
+			"title": "Plánování financí.cz",
+			"description": "Kompletní dodání webového řešení vč. dodání vlastního redakčního systému <a target=\"_blank\" href=\"http://easyadmin.cz\">Easy Admin System 3</a>.",
+			"client": "Stanislav Soukup",
+			"scope": "grafika, CMS, šablona, webhosting",
+			"technologies": "PHP5, MySQL, HTML5, CSS3",
+			"date": "jaro 2013",
+			"length": "cca 100 hodin",
+			"link": ["http://www.planovanifinanci.cz"],
+			"image": "planovani-financi.jpg"
+		},
+		"en": {
+			"title": "Plánování financí.cz (Finance)",
+			"description": "Complete solution including my owm content management system <a target=\"_blank\" href=\"http://easyadmin.cz\">Easy Admin System 3</a>.",
+			"client": "Stanislav Soukup",
+			"scope": "graphics, CMS, template, webhosting",
+			"technologies": "PHP5, MySQL, HTML5, CSS3",
+			"date": "spring 2013",
+			"length": "about 100 hours",
+			"link": ["http://www.planovanifinanci.cz"],
+			"image": "planovani-financi.jpg"
+		}
+	},
+
+	"rollpap": {
+		"type": "mini",
+		"cs": {
+			"title": "E-shop Rollpap.cz",
+			"description": "Elektronický obchod Rollpap.cz s možností registrace zákazníků a objednávek.",
+			"client": "Rollpap, s.r.o.",
+			"scope": "CMS, Templates",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2010",
+			"length": "-",
+			"link": ["http://rollpap.cz"],
+			"image": "rollpap.jpg"
+		},
+		"en": {
+			"title": "Rollpap.cz e-shop",
+			"description": "",
+			"client": "",
+			"scope": "",
+			"technologies": "",
+			"date": "2010",
+			"length": "-",
+			"link": ["http://rollpap.cz", ""],
+			"image": "rollpap.jpg"
+		}
+	},
+
+	"autoAkord": {
+		"type": "mini",
+		"cs": {
+			"title": "Webová prezentace Auto Akord",
+			"description": "Návrh grafického designu a implementace frontendu.",
+			"client": "Auto Akord Rakovník",
+			"scope": "Graphics, Frontend",
+			"technologies": "HTML, CSS",
+			"date": "2007",
+			"length": "-",
+			"link": [false, "Web již bohužel není funkční"],
+			"image": "autoakord.jpg"
+		},
+		"en": {
+			"title": "Auto Akord Web Site",
+			"description": "Graphic design, frontend implementation.",
+			"client": "Auto Akord Rakovník",
+			"scope": "Graphics, Frontend",
+			"technologies": "HTML, CSS",
+			"date": "2007",
+			"length": "-",
+			"link": [false, "Out of order"],
+			"image": "autoakord.jpg"
+		}
+	},
+
+	"bodyfitness": {
+		"type": "mini",
+		"cs": {
+			"title": "Magazín Bodyfitness.cz",
+			"description": "Kompletní realizace webového magazínu o cvičení a fitness. Postaveno na vlastním redakčním systému Easy Admin System 2. Součástí byly i diskuzní fóra, online poradna a další funkce.",
+			"client": "Stanislav Soukup",
+			"scope": "Grafika, CMS, šablony",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2010",
+			"length": "cca 160 hodin",
+			"link": ["http://bodyfitness.cz", "Doména již mimo provoz"],
+			"image": "bodyfitness.jpg"
+		},
+		"en": {
+			"title": "Bodyfitness.cz Magazine",
+			"description": "Complete implementation of e-zine about fitness. Based on my own CMS.",
+			"client": "Stanislav Soukup",
+			"scope": "Graphics, CMS, templates",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2010",
+			"length": "about 160 hours",
+			"link": ["http://bodyfitness.cz", "Domain is out of order"],
+			"image": "bodyfitness.jpg"
+		}
+	},
+
+	"discolagoon": {
+		"type": "mini",
+		"cs": {
+			"title": "Web music klubu Lagoon Slaný",
+			"description": "Kompletní realizace webu vč. dodání vlastního redakčního systému.",
+			"client": "Music club Lagoon",
+			"scope": "Grafika, CMS, šablony",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2011",
+			"length": "2 týdny",
+			"link": ["http://discolagoon.cz", "mimo provoz"],
+			"image": "discolagoon.jpg"
+		},
+		"en": {
+			"title": "Music club Lagoon web site",
+			"description": "Graphic design, my own CMS, temlates etc.",
+			"client": "Music club Lagoon",
+			"scope": "GD, CMS, templates",
+			"technologies": "PHP, MySQL, HTML, CSS",
+			"date": "2011",
+			"length": "2 weeks",
+			"link": ["http://discolagoon.cz", "out of order"],
+			"image": "discolagoon.jpg"
 		}
 	},
 
