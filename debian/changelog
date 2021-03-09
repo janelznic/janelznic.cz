@@ -1,3 +1,13 @@
+janelznic-web (2.6) stable; urgency=low
+
+  * Updated references
+  * Flash message position fixed
+  * Font Awesome icons fixed
+  * CV updated 14 Nov 2020
+  * GitLab link removed
+
+ -- Jan Elznic <jan.elznic@elzasoft.com>  Tue, 09 Mar 2021 14:58:00 +0100
+ 
 janelznic-web (2.5) stable; urgency=low
 
   * Chaged data in post list on administration(columns)
