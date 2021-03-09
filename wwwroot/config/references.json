@@ -1,4 +1,114 @@
 {
+	"elzasoft": {
+		"type": "big",
+		"cs": {
+			"title": "Solution Architect",
+			"description": "Zde nyní pracuji na HPP jako hlavní softwarový vývojář a Solution Architect.",
+			"client": "ElzaSoft Software Development s.r.o.",
+			"scope": "FE, BE, Architektura, Teamlead",
+			"technologies": "Angular, React, Vue.js, Node.js, TypeScript",
+			"date": "2019-doposud",
+			"link": ["https://elzasoft.cz"],
+			"image": "elzasoft.jpg"
+		},
+		"en": {
+			"title": "Solution Architect",
+			"description": "Here now I'm working as employee for fulltime as Principal Software Engineer & Solution Architect.",
+			"client": "ElzaSoft Software Development s.r.o.",
+			"scope": "FE, BE, Architecture, Teamlead",
+			"technologies": "Angular, React, Vue.js, Node.js, TypeScript",
+			"date": "12/2019–present",
+			"link": ["https://elzasoft.cz"],
+			"image": "elzasoft.jpg"
+		}
+	},
+
+	"rur": {
+		"type": "big",
+		"cs": {
+			"title": "Skladový systém s roboty",
+			"description": "Architektura a vývoj aplikace pro automatizovaný skladový systém s roboty - WMS (Warehouse Management System).",
+			"client": "RUR Robotics s.r.o., Alza.cz a.s.",
+			"scope": "FE, BE, Architecture, Teamlead",
+			"technologies": "Angular, TypeScript, Node.js, Express, PostgreSQL, MongoDB",
+			"date": "Q3+Q4/2019",
+			"link": [
+				false,
+				"Aplikace není veřejně dostupná"
+			],
+			"image": "rur.jpg"
+		},
+		"en": {
+			"title": "Warehouse Management System with robots",
+			"description": "Architecture design and development for automated warehouse section with robots - WMS (Warehouse Management System).",
+			"client": "RUR Robotics s.r.o., Alza.cz a.s.",
+			"scope": "FE, BE, Architecture, Teamlead",
+			"technologies": "Angular, TypeScript, Node.js, Express, PostgreSQL, MongoDB",
+			"date": "Q3+Q4/2019",
+			"link": [
+				false,
+				"Application is not public"
+			],
+			"image": "rur.jpg"
+		}
+	},
+
+	"redhat": {
+		"type": "big",
+		"cs": {
+			"title": "Red Hat Insights",
+			"description": "Red Hat Insights zákaznický portál a management pro evidenci zranitelností.",
+			"client": "Red Hat Czech s.r.o.",
+			"scope": "Frontend",
+			"technologies": "React, JavaScript",
+			"date": "Q1/2019",
+			"link": [
+				"https://www.redhat.com/en/about/videos/red-hat-insights-customer-portal-vulnerability"
+			],
+			"image": "redhat.jpg"
+		},
+		"en": {
+			"title": "Red Hat Insights",
+			"description": "Red Hat Insights Customer Portal Vulnerability Management",
+			"client": "Red Hat Czech s.r.o.",
+			"scope": "Frontend",
+			"technologies": "React, JavaScript",
+			"date": "Q1/2019",
+			"link": [
+				"https://www.redhat.com/en/about/videos/red-hat-insights-customer-portal-vulnerability"
+			],
+			"image": "redhat.jpg"
+		}
+	},
+
+	"archtis": {
+		"type": "big",
+		"cs": {
+			"title": "archTIS - Kojensi",
+			"description": "Kojensi je cloudová vládní platforma pro sdílení zabezpečeného obsahu s spolupráci mezi úřady a bezpečnostními složkami s různým stupněm utajení.",
+			"client": "BSTTech Consulting Pty Ltd",
+			"scope": "Frontend",
+			"technologies": "Angular 6, TypeScript",
+			"date": "Q1+Q2/2018",
+			"link": [
+				"https://www.archtis.com/products/"
+			],
+			"image": "archtis.jpg"
+		},
+		"en": {
+			"title": "archTIS - Kojensi",
+			"description": "Kojensi - Government Secure Content & Collaboration Cloud Service.",
+			"client": "BSTTech Consulting Pty Ltd",
+			"scope": "Frontend",
+			"technologies": "Angular 6, TypeScript",
+			"date": "Q1+Q2/2018",
+			"link": [
+				"https://www.archtis.com/products/"
+			],
+			"image": "archtis.jpg"
+		}
+	},
+
 	"cemex": {
 		"type": "big",
 		"cs": {

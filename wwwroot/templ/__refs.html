@@ -57,7 +57,11 @@
 							<?php if ($r['link'][0] == false):?>
 								<a class="disabled"><?php echo $r['link'][1];?></a>
 							<?php else:?>
-								<a href="<?php echo $r['link'][0];?>" target="_blank"><?php echo $r['link'][1] ? $r['link'][1] : $r['link'][0];?></a>
+								<?php if (strlen($r['link'][0]) > $dict["shortUrlMaxChars"]): ?>
+									<a href="<?php echo $r['link'][0];?>" target="_blank"><?php echo substr($r['link'][0], 0, $dict["shortUrlMaxChars"]); ?>&hellip;</a>
+								<?php else: ?>
+									<a href="<?php echo $r['link'][0];?>" target="_blank"><?php echo $r['link'][1] ? $r['link'][1] : $r['link'][0];?></a>
+								<?php endif; ?>
 							<?php endif;?>
 						</p>
 					</div>
