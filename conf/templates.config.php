@@ -13,4 +13,7 @@ $dict["staticVersion"] = 7;
 
 # Titulek prohlížeče
 $dict["title"] = "Jan Elznic";
+
+# Maximální délka URL v referencích
+$dict["shortUrlMaxChars"] = 36;
 ?>
