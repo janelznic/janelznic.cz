@@ -1,3 +1,10 @@
+janelznic-web (2.6.1) stable; urgency=low
+
+  * Fixed bug on references link
+  * Contacts updated
+
+ -- Jan Elznic <jan.elznic@elzasoft.com>  Mon, 15 Mar 2021 00:50:00 +0100
+
 janelznic-web (2.6) stable; urgency=low
 
   * Updated references
