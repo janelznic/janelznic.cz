@@ -7,3 +7,11 @@ wwwroot/log/debug.log
 # Copied config files
 wwwroot/config/application.config.php
 wwwroot/config/templates.config.php
+
+# Debian package build temp files
+debian/.debhelper/
+debian/files
+debian/janelznic-web.debhelper.log
+debian/janelznic-web.substvars
+debian/janelznic-web/
+wwwroot/js/all.js
