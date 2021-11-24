@@ -1,3 +1,9 @@
+janelznic-web (2.7) stable; urgency=low
+
+  * Debian 11 Bullseye PHP 7.4 support
+
+ -- Jan Elznic <jan.elznic@elzasoft.com>  Wed, 24 Nov 2021 19:20:00 +0100
+
 janelznic-web (2.6.1) stable; urgency=low
 
   * Fixed bug on references link

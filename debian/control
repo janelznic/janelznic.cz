@@ -8,5 +8,5 @@ Homepage: <insert the upstream URL, if relevant>
 
 Package: janelznic-web
 Architecture: any
-Depends: apache2 (>= 2.4.38), libapache2-mod-php7.3 (>= 7.3.4), php7.3-common (>= 7.3.4)
-Description: Jan Elznic Homepage 2.0 (PHP 7.0)
+Depends: apache2 (>= 2.4.51), libapache2-mod-php7.4 (>= 7.4.25), php7.4-common (>= 7.4.25)
+Description: Jan Elznic Homepage 2.0 (PHP 7.4)
