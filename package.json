@@ -1,5 +1,5 @@
 {
-  "name": "JanElznicWeb",
+  "name": "janelznic-web",
   "version": "0.0.0",
   "description": "Jan Elznic - Homepage 2.0",
   "main": "gruntfile.js",
@@ -11,13 +11,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "svn",
-    "url": "https://gitlab.elznic.net/private/janelznic"
+    "type": "git",
+    "url": "https://github.com/janelznic/janelznic.cz.git"
   },
   "author": "Jan Elznic",
   "license": "ISC",
   "devDependencies": {
     "grunt": "~0.4.1",
+    "grunt-cli": "^1.4.3",
     "grunt-contrib-less": "~0.5.0",
     "grunt-contrib-watch": "~0.4.0"
   }
