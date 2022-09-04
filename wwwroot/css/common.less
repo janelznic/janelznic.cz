@@ -3,17 +3,10 @@
 
 body { height:auto; }
 
-@blue:#009AD9;
-@light-blue:#2FC0FF;
-@dark-purple:#171820;
-@header-background:rgba(255, 255, 255, .95);
-@section-box-shadow:0 5px 10px rgba(0, 0, 0, .5);
-@bold:'FiraSansBold',sans-serif;
-
 /*- Common styles -*/
 p.button								{ font-size:16px; }
-p.button a								{ text-decoration:none; color:#FFF; padding:10px 15px; background:@blue; }
-p.button a:hover						{ background:@light-blue; }
+p.button a								{ text-decoration:none; color:#FFF; padding:10px 15px; background:@color-primary; }
+p.button a:hover						{ background:@color-primary-light; }
 p.button a.disabled,
  p.button a.disabled:hover				{ background:#97A19C; cursor:no-drop; }
 
@@ -29,10 +22,10 @@ header ul li							{  }
 header nav ul.menu						{  }
 header nav ul.menu li					{ font-size:22px; }
 header nav ul.menu li.active			{ text-shadow:0 0 3px rgba(0, 54, 217, 0.3); }
-header nav ul.menu li.active a			{ color:@blue; }
+header nav ul.menu li.active a			{ color:@color-primary; }
 header nav ul.menu li a					{  }
 header a								{ color:#444; text-decoration:none; }
-header a:hover							{ color:@blue; }
+header a:hover							{ color:@color-primary; }
 
 header nav ul.icons						{  }
 header nav ul.icons li					{  }
@@ -90,7 +83,7 @@ section.about h2						{ font-size:40px; color:#FFF; text-align:center; }
 section.about p							{ margin:0 auto; color:#FFF; text-align:center; }
 section.about p.cv						{ font-size:18px; text-align:center; }
 section.about p.cv a					{ margin:0 auto; width:180px; padding:10px 7px 10px 8px; border:2px solid #FFF; border-radius:2px; background:rgba(0, 0, 0, .5); color:#FFF; text-decoration:none; display:block; }
-section.about p.cv a:hover				{ color:@blue; border-color:@blue; transition:all .25s; }
+section.about p.cv a:hover				{ color:@color-primary; border-color:@color-primary; transition:all .25s; }
 
 
 /*- Portfolio -*/
@@ -100,7 +93,7 @@ section.portfolio h4								{ color:#888; text-align:center; font-weight:normal;
 section.portfolio ul.boxes							{ list-style:none; }
 section.portfolio ul.boxes > li						{ box-shadow:0 0 5px rgba(0, 0, 0, .2); background:#FFF; vertical-align:top; display:inline-block; }
 section.portfolio ul.boxes > li h3					{ text-align:center; font-weight:normal; font-family:'FiraSansBold',sans-serif; }
-section.portfolio ul.boxes > li p.img				{ color:@blue; width:100%; text-align:center; }
+section.portfolio ul.boxes > li p.img				{ color:@color-primary; width:100%; text-align:center; }
 section.portfolio ul.boxes > li ul.points			{  }
 section.portfolio ul.boxes > li ul.points > li		{ list-style:disc; }
 
@@ -179,7 +172,7 @@ section.contact .details table td:nth-child(odd)		{ padding-right:.5em; text-ali
 section.contact .details table td:nth-child(odd):after	{ content:":"; }
 section.contact .details table td:nth-child(even)		{ text-align:left; color:#FFF; }
 section.contact .details p.vcard						{ color:#FFF; margin:25px 0; font-size:18px; }
-section.contact .details p.vcard a						{ text-decoration:none; border-bottom:1px solid @blue; }
+section.contact .details p.vcard a						{ text-decoration:none; border-bottom:1px solid @color-primary; }
 section.contact .details p.vcard a:hover				{ border-bottom:none; }
 section.contact .details p.vcard a .fa					{ padding-right:.3em; }
 section.contact p.qr-code								{ width:50%; float:right; }
@@ -197,8 +190,8 @@ section.contact .form .email input						{ float:right; }
 section.contact .form .text								{  }
 section.contact .form .text textarea					{ padding:15px; width:650px; height:160px; }
 section.contact .form .row.butt input					{ width:200px; height:50px; cursor:pointer; margin:0 15px; border:0; }
-section.contact .form input[type=submit]				{ background:@blue; }
-section.contact .form input[type=submit]:hover			{ background:@light-blue; }
+section.contact .form input[type=submit]				{ background:@color-primary; }
+section.contact .form input[type=submit]:hover			{ background:@color-primary-light; }
 section.contact .form input[type=reset]					{ background:#404040; }
 section.contact .form input[type=reset]:hover			{ background:#666; }
 
