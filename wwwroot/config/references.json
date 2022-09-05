@@ -2,20 +2,20 @@
 	"elzasoft": {
 		"type": "big",
 		"cs": {
-			"title": "Solution Architect",
+			"title": "Solution Architect &amp;&nbsp;Principal Engineer",
 			"description": "Zde nyní pracuji na HPP jako hlavní softwarový vývojář a Solution Architect.",
 			"client": "ElzaSoft Software Development s.r.o.",
-			"scope": "FE, BE, Architektura, Teamlead",
+			"scope": "Architektura, Leadership, Strategie",
 			"technologies": "Angular, React, Vue.js, Node.js, TypeScript",
 			"date": "2019-doposud",
 			"link": ["https://elzasoft.cz"],
 			"image": "elzasoft.jpg"
 		},
 		"en": {
-			"title": "Solution Architect",
+			"title": "Solution Architect &amp;&nbsp;Principal Engineer",
 			"description": "Here now I'm working as employee for fulltime as Principal Software Engineer & Solution Architect.",
 			"client": "ElzaSoft Software Development s.r.o.",
-			"scope": "FE, BE, Architecture, Teamlead",
+			"scope": "Architecture, Leadership, Strategy",
 			"technologies": "Angular, React, Vue.js, Node.js, TypeScript",
 			"date": "12/2019–present",
 			"link": ["https://elzasoft.cz"],

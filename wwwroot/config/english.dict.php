@@ -13,7 +13,7 @@ $dict = array(
 	"menu_button_contact" => "Contact",
 
 	# Meta tags
-	"meta_description" => "Jan Elznic - personal homepage with portfolio, references a contacts",
+	"meta_description" => "Jan Elznic - Personal homepage with portfolio, references a contacts",
 
 	# Cite
 	"cite_text" => "Always listen to experts. The'll tell you <br />what can't be done and why. Then do it.",
@@ -23,9 +23,9 @@ $dict = array(
 	"about_title" => "About me",
 	"about_text" => array(
 		"My name is Jan Elznic, I am",
-		"years old and I am doing software development for web and mobile platforms. My specialization is web frontend applications (HTML5, CSS3 and JavaScript). My first page I wrote in 1998. Ten years later (2008), I officially started my own business. I worked for several years as a freelancer, tried a full-time job for Czech and also some other European and American startups, medium-sized companies and big corporations. More about my professional career you can learn from my",
-		"In recent years I'm also interested in web usability (User eXperience) and the development of native mobile applications for Android, iOS, Windows Phone and Firefox OS. I love games of all kinds, Linux and Open Source - a few of my contributions to the world of open source can be found on my",
-		"My favourite activities at spare time: reading, time management, travel, cycling and skiing, theater, developer meetings."
+		"years old and I am doing software development for web and mobile platforms. My specialization is web frontend applications (HTML5, CSS3 and JavaScript). My first page I wrote in 1998. Ten years later (2008), I officially started my own business. I worked for several years as a freelancer, tried a full-time job for Czech and also some other European, American or Australian startups, medium-sized companies and big international corporations. More about my professional career you can learn from my",
+		"I'm also interested in in UX, native mobile app development for Android + iOS platforms and artificial intelligence (AI).<br />I'm a fan of games of all kinds, Linux and Open Source - a few of my contributions to the world of open source can be found on my",
+		"My favourite activities at spare time: Horse riding, cycling, skiing, water sports, skiing, travelling, reading, blogging and I like to visit the theatre, cinema or a festival."
 	),
 	"about_cv_text" => "resumé (CV)",
 	"about_github_link" => "GitHub",
@@ -33,52 +33,63 @@ $dict = array(
 
 	# Portfolio
 	"portf_title" => "Portfolio",
-	"portf_subtitle" => "&hellip;my skills including&hellip;",
-	"portf_web_frontend_title" => "Web frontend",
+	"portf_subtitle" => "I have professional experience more than %d years in IT, %d years in international environment, %d years in middle and higher management&hellip;",
+	"portf_web_frontend_title" => "Webový frontend",
 	"portf_web_frontend" => array(
-		"HTML(5), CSS(3), JavaScript (ECMAScript6)",
-		"Frameworks (jQuery, Angular, React, &hellip;)",
-		"Automation tools (LESS/SASS, Grunt/Gulp)",
-		"Accessibility (WAI-ARIA standards)",
-		"New recommendations (W3C, WHATWG)"
+		"HTML(5), CSS(3), Less/Sass",
+		"Responsive webdesign",
+		"JavaScript (ECMAScript6), TypeScript",
+		"Frameworks Angular, React + Hooks, Vue",
+		"Mobile applications in React Native a IONIC",
+		"Development for Android a iOS platforms",
+		"Material UI, Twitter Bootstrap, Next.js, &hellip;"
 	),
-	"portf_backend_title" => "Backend apps development",
+	"portf_backend_title" => "Backend applications",
 	"portf_backend" => array(
-		"PHP (+ frameworks nette, Yii, &hellip;)",
-		"Python, Node.js, C/C++",
-		"Databases (MySQL/MariaDB/PostgreSQL, MongoDB, Neo4j, &hellip;)",
-		"Security (XSS, CSRF, SQL injection)"
+		"Node.js + TypeScript &#8212; Express, NestJS",
+		"PHP &#8212; nette, Yii, Laravel, Symfony, &hellip;",
+		"Go &#8212; Temporal.io",
+		"Python, C/C++, Java, bash",
+		"MySQL, PostgreSQL, MongoDB, Neo4j, &hellip;",
+		"Security (XSS, CORS, CSRF, SQL inject)",
+		"REST, GraphQL, WebSockets"
 	),
-	"portf_administration_title" => "Server administration",
+	"portf_administration_title" => "DevOps + Cloud",
 	"portf_administration" => array(
-		"Linux servers administration (Debian/Ubuntu)",
+		"Microsoft Azure, Docker, Kubernetes (AKS)",
+		"Linux servers administration (Debian/Ubuntu, RHEL)",
 		"Networks, TCP/IP, DNS, loadbalancing",
-		"Webservers - Apache2, Nginx",
-		"VPN - OpenVPN, PPP(TP)",
-		"shell - Bash scripts"
+		"Web servers - Apache2, Nginx",
+		"VPN networks - OpenVPN, PPP(TP)",
+		"Terraform, bash, CI/CD, pipelines"
 	),
-	"portf_graphics_title" => "Graphics",
+	"portf_management_title" => "Management",
+	"portf_management" => array(
+ 		"Building IT corporate strategy",
+		"Managing teams of up to 50 people",
+		"Leadership, development a mentoring",
+		"Recruitment of newcomers, interviews",
+		"Motivational planning - objectives (KPIs)",
+		"Project planning, trainings",
+		"Communication with partners, legislation"
+	),
+	"portf_graphics_title" => "Graphics &amp; UX",
 	"portf_graphics" => array(
-		"Drawing wireframes and prototyping",
-		"Creating graphic design (Adobe PS)",
-		"Analysis of usability and user testing",
-		"Web banners in Adobe Flash, ActionScript",
-		"Design of print, corporate identity"
+		"Wireframes and prototype design",
+		"Graphic design, CSS animations",
+		"Figma, StoryBook, Miro, Adobe PS, Illustrator, Corel DRAW, SVG",
+		"Usability analysis and User testing, Eye tracking, Heatmaps",
+		"Apple/Google Guidelines, Typography"
 	),
 	"portf_seo_title" => "Analytics, SEO and marketing",
 	"portf_seo" => array(
+		"Building a strategy for monetization",
 		"Google Analytics &amp; Webmasters Tools",
-		"Search Engine Optimization (SEO)",
-		"PPC campaigns management (AdWords, Sklik)",
-		"CRM, sales, B2B a B2C marketing",
-		"PR, medial plans &amp; social networks"
-	),
-	"portf_mobile_title" => "Mobile apps and games",
-	"portf_mobile" => array(
-		"Multiplatform HTML5/JavaScript apps and games development",
-		"Canvas, Websockets, WebGL",
-		"Cocos2d-JS, Apache Cordova, Adobe Flash, IONIC",
-		"Google Android, Apple iOS, web"
+		"Search Engines Optimization (SEO)",
+		"PPC campaigns (AdWords, Sklik)",
+		"CRM, Sales, B2B a B2C marketing",
+		"PR, Media plans and Social networks",
+		"Analytics + data collection (+ GDPR)",
 	),
 
 	# References
