@@ -1,3 +1,9 @@
+janelznic-web (2.7.3) stable; urgency=low
+
+  * English text fixed
+
+ -- Jan Elznic <jan.elznic@elzasoft.com>  Mon, 05 Sep 2022 03:51:00 +0100
+
 janelznic-web (2.7.2) stable; urgency=low
 
   * Fixed CV link in top menu bar
