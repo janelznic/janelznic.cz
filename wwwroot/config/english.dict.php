@@ -67,11 +67,11 @@ $dict = array(
 	"portf_management" => array(
  		"Building IT corporate strategy",
 		"Managing teams of up to 50 people",
-		"Leadership, development a mentoring",
-		"Recruitment of newcomers, interviews",
-		"Motivational planning - objectives (KPIs)",
-		"Project planning, trainings",
-		"Communication with partners, legislation"
+		"Leadership, Development and Mentoring",
+		"Recruitment of newcomers, Interviews",
+		"Motivational planning - Objectives (KPIs)",
+		"Project planning, Trainings",
+		"Communication with partners, Legislation"
 	),
 	"portf_graphics_title" => "Graphics &amp; UX",
 	"portf_graphics" => array(
