@@ -1,3 +1,10 @@
+janelznic-web (2.7.2) stable; urgency=low
+
+  * Fixed CV link in top menu bar
+  * Non-cached avatar
+
+ -- Jan Elznic <jan.elznic@elzasoft.com>  Mon, 05 Sep 2022 03:46:00 +0100
+
 janelznic-web (2.7.1) stable; urgency=low
 
   * New avatar
