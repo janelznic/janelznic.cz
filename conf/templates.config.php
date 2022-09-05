@@ -9,7 +9,7 @@ $dict["devMode"] = 0;
 $dict["preloader"] = 1;
 
 # Statická verze šablon
-$dict["staticVersion"] = 7;
+$dict["staticVersion"] = 8;
 
 # Titulek prohlížeče
 $dict["title"] = "Jan Elznic";

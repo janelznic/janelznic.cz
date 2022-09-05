@@ -1,3 +1,14 @@
+janelznic-web (2.7.1) stable; urgency=low
+
+  * New avatar
+  * Updated texts
+  * Yellow color schema
+  * Phone number as a link
+  * New homescreen background
+  * CV link in top menu bar
+
+ -- Jan Elznic <jan.elznic@elzasoft.com>  Mon, 05 Sep 2022 03:37:00 +0100
+
 janelznic-web (2.7) stable; urgency=low
 
   * Debian 11 Bullseye PHP 7.4 support
