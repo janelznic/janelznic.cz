@@ -2,7 +2,8 @@
 <section class="portfolio scrollable" id="<?php echo $dict['menu_buttonId_portfolio'];?>">
 	<h2><?php echo $dict['portf_title'];?></h2>
 
-	<h4><?php echo sprintf($dict['portf_subtitle'], 15, 9, 7);?></h4>
+	<?php $year = date('Y'); ?>
+	<h4><?php echo sprintf($dict['portf_subtitle'], $year-2007, $year-2013, $year-2015);?></h4>
 
 	<ul class="boxes">
 		<li>
