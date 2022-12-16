@@ -1,8 +1,10 @@
-janelznic-web (2.7.5) stable; urgency=low
+janelznic-web (2.7.6) stable; urgency=low
 
   * CV updated
+  * Updated timeline
+  * Updated clients logos
 
- -- Jan Elznic <jan.elznic@elzasoft.com>  Wed, 09 Nov 2022 01:22:00 +0100
+ -- Jan Elznic <jan@elznic.com>  Fri, 16 Dec 2022 22:24:00 +0100
 
 janelznic-web (2.7.4) stable; urgency=low
 
