@@ -1,23 +1,47 @@
 {
+	"inu": {
+		"type": "big",
+		"cs": {
+			"title": "Head of Software Development",
+			"description": "Fintech start-up, dceřinná společnost skupiny Creditas. Rozvoj a řízení několika týmů v rámci vývojového oddělení.",
+			"client": "INU.COM a.s.",
+			"scope": "Management, Architektura, Vývoj",
+			"technologies": "React Native, Go, PostgreSQL, Node.js, TypeScript",
+			"date": "02/2022-doposud",
+			"link": ["https://inu.com"],
+			"image": "inu.jpg"
+		},
+		"en": {
+			"title": "Head of Software Development",
+			"description": "Fintech company, subsidiary of Creditas Group. Managing multiple teams in software development department.",
+			"client": "INU.COM a.s.",
+			"scope": "Management, Architecture, Vývoj",
+			"technologies": "React Native, Go, PostgreSQL, Node.js, TypeScript",
+			"date": "02/2022–present",
+			"link": ["https://inu.com"],
+			"image": "inu.jpg"
+		}
+	},
+
 	"elzasoft": {
 		"type": "big",
 		"cs": {
 			"title": "Solution Architect &amp;&nbsp;Principal Engineer",
-			"description": "Zde nyní pracuji na HPP jako hlavní softwarový vývojář a Solution Architect.",
+			"description": "Práce na HPP jako hlavní softwarový vývojář a Solution Architect.",
 			"client": "ElzaSoft Software Development s.r.o.",
 			"scope": "Architektura, Leadership, Strategie",
 			"technologies": "Angular, React, Vue.js, Node.js, TypeScript",
-			"date": "2019-doposud",
+			"date": "12/2019-01/2022",
 			"link": ["https://elzasoft.cz"],
 			"image": "elzasoft.jpg"
 		},
 		"en": {
 			"title": "Solution Architect &amp;&nbsp;Principal Engineer",
-			"description": "Here now I'm working as employee for fulltime as Principal Software Engineer & Solution Architect.",
+			"description": "Employment for fulltime as Principal Software Engineer & Solution Architect.",
 			"client": "ElzaSoft Software Development s.r.o.",
 			"scope": "Architecture, Leadership, Strategy",
 			"technologies": "Angular, React, Vue.js, Node.js, TypeScript",
-			"date": "12/2019–present",
+			"date": "12/2019–01/2022",
 			"link": ["https://elzasoft.cz"],
 			"image": "elzasoft.jpg"
 		}
@@ -31,7 +55,7 @@
 			"client": "RUR Robotics s.r.o., Alza.cz a.s.",
 			"scope": "FE, BE, Architecture, Teamlead",
 			"technologies": "Angular, TypeScript, Node.js, Express, PostgreSQL, MongoDB",
-			"date": "Q3+Q4/2019",
+			"date": "2019",
 			"link": [
 				false,
 				"Aplikace není veřejně dostupná"
@@ -44,7 +68,7 @@
 			"client": "RUR Robotics s.r.o., Alza.cz a.s.",
 			"scope": "FE, BE, Architecture, Teamlead",
 			"technologies": "Angular, TypeScript, Node.js, Express, PostgreSQL, MongoDB",
-			"date": "Q3+Q4/2019",
+			"date": "2019",
 			"link": [
 				false,
 				"Application is not public"
@@ -61,7 +85,7 @@
 			"client": "Red Hat Czech s.r.o.",
 			"scope": "Frontend",
 			"technologies": "React, JavaScript",
-			"date": "Q1/2019",
+			"date": "2019",
 			"link": [
 				"https://www.redhat.com/en/about/videos/red-hat-insights-customer-portal-vulnerability"
 			],
@@ -73,7 +97,7 @@
 			"client": "Red Hat Czech s.r.o.",
 			"scope": "Frontend",
 			"technologies": "React, JavaScript",
-			"date": "Q1/2019",
+			"date": "2019",
 			"link": [
 				"https://www.redhat.com/en/about/videos/red-hat-insights-customer-portal-vulnerability"
 			],
@@ -89,7 +113,7 @@
 			"client": "BSTTech Consulting Pty Ltd",
 			"scope": "Frontend",
 			"technologies": "Angular 6, TypeScript",
-			"date": "Q1+Q2/2018",
+			"date": "2018",
 			"link": [
 				"https://www.archtis.com/products/"
 			],
@@ -101,7 +125,7 @@
 			"client": "BSTTech Consulting Pty Ltd",
 			"scope": "Frontend",
 			"technologies": "Angular 6, TypeScript",
-			"date": "Q1+Q2/2018",
+			"date": "2018",
 			"link": [
 				"https://www.archtis.com/products/"
 			],
@@ -117,7 +141,7 @@
 			"client": "CEMEX / Neoris s.r.o.",
 			"scope": "Frontend, Responzivní šablona",
 			"technologies": "React, Angular 2",
-			"date": "jaro 2017",
+			"date": "2017",
 			"link": [
 				false,
 				"Aplikace není veřejně dostupná"
@@ -130,7 +154,7 @@
 			"client": "CEMEX / Neoris s.r.o.",
 			"scope": "Frontend, Responsive template",
 			"technologies": "React, Angular 2",
-			"date": "spring 2017",
+			"date": "2017",
 			"link": [
 				false,
 				"Application is not public"
@@ -147,7 +171,7 @@
 			"client": "Trusteca s.r.o.",
 			"scope": "Android, iOS, web",
 			"technologies": "Canvas/WebGL, JavaScript",
-			"date": "zima 2016",
+			"date": "2016",
 			"link": [
 				false,
 				"Aplikace není veřejně dostupná"
@@ -160,7 +184,7 @@
 			"client": "Trusteca s.r.o.",
 			"scope": "Android, iOS, web",
 			"technologies": "Canvas/WebGL, JavaScript",
-			"date": "winter 2016",
+			"date": "2016",
 			"link": [
 				false,
 				"Application is not public"
@@ -176,7 +200,7 @@
 			"client": "O2 Czech Republic a.s.",
 			"scope": "Frontend, Responzivní šablona",
 			"technologies": "Java, Liferay, HTML5, CSS3, JS",
-			"date": "jaro 2016",
+			"date": "2016",
 			"link": ["https://o2.cz"],
 			"image": "o2.jpg"
 		},
@@ -186,9 +210,35 @@
 			"client": "O2 Czech Republic a.s.",
 			"scope": "Frontend, Responsive template",
 			"technologies": "Java, Liferay, HTML5, CSS3, JS",
-			"date": "spring 2016",
+			"date": "2016",
 			"link": ["https://o2.cz"],
 			"image": "o2.jpg"
+		}
+	},
+
+	"skokani": {
+		"type": "big",
+		"cs": {
+			"title": "Seznam skokanů od Seznam.cz",
+			"description": "Implementace grafiky, nakódování webových šablon a backend pro zpracování dodaných textových výstupů.",
+			"client": "Seznam.cz, a.s.",
+			"scope": "backend, frontend",
+			"technologies": "PHP, HTML, CSS, JS",
+			"date": "-",
+			"length": "cca 40 hodin",
+			"link": ["http://skokani.seznam.cz"],
+			"image": "skokani-seznam.jpg"
+		},
+		"en": {
+			"title": "Seznam skokanů by Seznam.cz",
+			"description": "Frontend and backend solution.",
+			"client": "Seznam.cz, a.s.",
+			"scope": "Backend, Frontend",
+			"technologies": "PHP, HTML, CSS, JS",
+			"date": "-",
+			"length": "about 40 hours",
+			"link": ["http://skokani.seznam.cz"],
+			"image": "skokani-seznam.jpg"
 		}
 	},
 
@@ -204,7 +254,7 @@
 			"client": "Getmore s.r.o.",
 			"scope": "Frontend, backend",
 			"technologies": "PHP, HTML5, CSS3, JS",
-			"date": "podzim 2015",
+			"date": "2015",
 			"link": ["http://sluzba.getmore.cz"],
 			"image": "getmore.jpg"
 		},
@@ -214,7 +264,7 @@
 			"client": "Getmore s.r.o.",
 			"scope": "Frontend, backend",
 			"technologies": "PHP, HTML5, CSS3, JS",
-			"date": "autumn 2015",
+			"date": "2015",
 			"link": ["http://sluzba.getmore.cz"],
 			"image": "getmore.jpg"
 		}
@@ -228,7 +278,7 @@
 			"client": "Etnetera a.s.",
 			"scope": "Frontend, Responzivní šablona",
 			"technologies": "Java, Liferay, HTML5, CSS3, JS",
-			"date": "léto 2015",
+			"date": "2015",
 			"link": [
 				false,
 				"Aplikace není veřejně dostupná"
@@ -241,7 +291,7 @@
 			"client": "Etnetera a.s.",
 			"scope": "Frontend, Responsive template",
 			"technologies": "Java, Liferay, HTML5, CSS3, JS",
-			"date": "léto 2015",
+			"date": "2015",
 			"link": [
 				false,
 				"Application is not public"
@@ -258,7 +308,7 @@
 			"client": "Slovak Telekom, a. s.",
 			"scope": "Frontend, Responzivní šablona",
 			"technologies": "Java, Liferay, HTML5, CSS3, JS",
-			"date": "jaro 2015",
+			"date": "2015",
 			"link": ["https://telekom.sk"],
 			"image": "slovak-telekom.jpg"
 		},
@@ -268,7 +318,7 @@
 			"client": "Slovak Telekom, a.s.",
 			"scope": "Frontend, Responsive template",
 			"technologies": "Java, Liferay, HTML5, CSS3, JS",
-			"date": "spring 2015",
+			"date": "2015",
 			"link": ["https://telekom.sk"],
 			"image": "slovak-telekom.jpg"
 		}
@@ -282,7 +332,7 @@
 			"client": "EMTC - Czech, a.s.",
 			"scope": "Backend, Responzivní šablona",
 			"technologies": "PHP5, HTML5, CSS3",
-			"date": "zima 2014",
+			"date": "2014",
 			"length": "cca 120 hodin",
 			"link": [
 				"http://www.emtc.cz"
@@ -295,7 +345,7 @@
 			"client": "EMTC - Czech, a.s.",
 			"scope": "Backend, Responsive template",
 			"technologies": "PHP5, HTML5, CSS3",
-			"date": "winter 2014",
+			"date": "2014",
 			"length": "about 120 hours",
 			"link": [
 				"http://www.emtc.cz"
@@ -312,7 +362,7 @@
 			"client": "EMTC - Czech, a.s.",
 			"scope": "Backend, Responzivní šablona",
 			"technologies": "PHP5, HTML5, CSS3",
-			"date": "podzim 2014",
+			"date": "2014",
 			"length": "cca 64 hodin",
 			"link": [
 				"http://kariera.emtc.cz"
@@ -325,7 +375,7 @@
 			"client": "EMTC - Czech, a.s.",
 			"scope": "Backend, Responsive template",
 			"technologies": "PHP5, HTML5, CSS3",
-			"date": "autumn 2014",
+			"date": "2014",
 			"length": "about 64 hours",
 			"link": [
 				"http://kariera.emtc.cz"
@@ -342,7 +392,7 @@
 			"client": "Lipa Learning s.r.o.",
 			"scope": "Responzivní frontend, management",
 			"technologies": "HTML5, CSS3, Python",
-			"date": "léto-podzim 2014",
+			"date": "2014",
 			"link": ["http://www.lipalearning.com"],
 			"image": "lipa2.jpg"
 		},
@@ -352,7 +402,7 @@
 			"client": "Lipa Learning s.r.o.",
 			"scope": "Responsive frontend, management",
 			"technologies": "HTML5, CSS3, Python",
-			"date": "summer-autumn 2014",
+			"date": "2014",
 			"link": ["http://www.lipalearning.com"],
 			"image": "lipa2.jpg"
 		}
@@ -366,7 +416,7 @@
 			"client": "Lipa Learning s.r.o.",
 			"scope": "Responzivní šablona (mobil, tablet)",
 			"technologies": "HTML5, CSS3, nette/latte",
-			"date": "jaro 2014",
+			"date": "2014",
 			"length": "cca 40 hodin",
 			"link": ["http://www.lipalearning.com"],
 			"image": "lipalearning-1.jpg"
@@ -377,38 +427,13 @@
 			"client": "Lipa Learning s.r.o.",
 			"scope": "Responsive template (mobile, tablet)",
 			"technologies": "HTML5, CSS3, nette/latte",
-			"date": "spring 2014",
+			"date": "2014",
 			"length": "about 40 hours",
 			"link": ["http://www.lipalearning.com"],
 			"image": "lipalearning-1.jpg"
 		}
 	},
 
-	"skokani": {
-		"type": "medium",
-		"cs": {
-			"title": "Seznam skokanů od Seznam.cz",
-			"description": "Implementace grafiky, nakódování webových šablon a backend pro zpracování dodaných textových výstupů.",
-			"client": "Seznam.cz, a.s.",
-			"scope": "backend, frontend",
-			"technologies": "PHP, HTML, CSS, JS",
-			"date": "2011",
-			"length": "cca 40 hodin",
-			"link": ["http://skokani.seznam.cz"],
-			"image": "skokani-seznam.jpg"
-		},
-		"en": {
-			"title": "Seznam skokanů by Seznam.cz",
-			"description": "Frontend and backend solution.",
-			"client": "Seznam.cz, a.s.",
-			"scope": "Backend, Frontend",
-			"technologies": "PHP, HTML, CSS, JS",
-			"date": "2011",
-			"length": "about 40 hours",
-			"link": ["http://skokani.seznam.cz"],
-			"image": "skokani-seznam.jpg"
-		}
-	},
 
 	"eadyAdmin": {
 		"type": "medium",
@@ -487,7 +512,7 @@
 	},
 
 	"kippSportmal": {
-		"type": "medium",
+		"type": "mini",
 		"cs": {
 			"title": "Webová prezentace Kipp Sportmal",
 			"description": "Návrh grafického designu, nakódování statické šablony, backend, nasazení a správa webu.",
@@ -546,7 +571,7 @@
 			"client": "Lipa Learning, s.r.o.",
 			"scope": "Management, CMS, šablony",
 			"technologies": "Wordpress, HTML5, CSS3, JS",
-			"date": "podzim 2014",
+			"date": "2014",
 			"length": "cca 80 hodin",
 			"link": ["http://lipavillage.com"],
 			"image": "lipavillage.jpg"
@@ -557,7 +582,7 @@
 			"client": "Lipa Learning, s.r.o.",
 			"scope": "Management, CMS, templates",
 			"technologies": "PHP, MySQL, HTML5, CSS3",
-			"date": "autumn 2014",
+			"date": "2014",
 			"length": "about 80 hours",
 			"link": ["http://lipavillage.com"],
 			"image": "lipavillage.jpg"
@@ -598,7 +623,7 @@
 			"client": "Stanislav Soukup",
 			"scope": "grafika, CMS, šablona, webhosting",
 			"technologies": "PHP5, MySQL, HTML5, CSS3",
-			"date": "jaro 2013",
+			"date": "2013",
 			"length": "cca 100 hodin",
 			"link": ["http://www.planovanifinanci.cz"],
 			"image": "planovani-financi.jpg"
@@ -609,7 +634,7 @@
 			"client": "Stanislav Soukup",
 			"scope": "graphics, CMS, template, webhosting",
 			"technologies": "PHP5, MySQL, HTML5, CSS3",
-			"date": "spring 2013",
+			"date": "2013",
 			"length": "about 100 hours",
 			"link": ["http://www.planovanifinanci.cz"],
 			"image": "planovani-financi.jpg"
@@ -1107,32 +1132,6 @@
 			"length": "",
 			"link": ["", ""],
 			"image": "obec-vsetaty.jpg"
-		}
-	},
-
-	"xchatSrazy": {
-		"type": "mini",
-		"cs": {
-			"title": "Vánoční srazy XChatu 2008-2009",
-			"description": "",
-			"client": "",
-			"scope": "",
-			"technologies": "",
-			"date": "",
-			"length": "",
-			"link": ["", ""],
-			"image": "vanocni-sraz09.jpg"
-		},
-		"en": {
-			"title": "Xmas meetings with XChat.cz",
-			"description": "",
-			"client": "",
-			"scope": "",
-			"technologies": "",
-			"date": "",
-			"length": "",
-			"link": ["", ""],
-			"image": "vanocni-sraz09.jpg"
 		}
 	}
 }
