@@ -1,3 +1,10 @@
+janelznic-web (2.7.7) stable; urgency=low
+
+  * Google Analytics placed code in configuration
+  * Google Tag implemented
+
+ -- Jan Elznic <jan@elznic.com>  Wed, 28 Dec 2022 00:21:00 +0100
+
 janelznic-web (2.7.6) stable; urgency=low
 
   * CV updated
