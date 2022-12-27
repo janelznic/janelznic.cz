@@ -16,4 +16,10 @@ $dict["title"] = "Jan Elznic";
 
 # Maximální délka URL v referencích
 $dict["shortUrlMaxChars"] = 36;
+
+# Kód pro službu Google Analytics
+$dict["googleAnalyticsCode"] = 'UA-22485023-1';
+
+# Kód pro službu Google Tag Manager
+$dict["googleTagManagerCode"] = 'G-VNQ67FEMSK';
 ?>
