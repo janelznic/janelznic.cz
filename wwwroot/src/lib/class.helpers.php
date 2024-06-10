@@ -1,8 +1,8 @@
 <?php
 /**
- * @name phpfw
- * @version 1.0.3-9
- * @description Miniaturní PHP framework
+ * @name helpers
+ * @version 1.1.1
+ * @description Knihovna pomocných funkcí pro PHP
  * @branch unstable
  */
 class FW
@@ -89,7 +89,8 @@ class FW
 						$array[$key] = "b\"".$value;
 						break;
 					case "null":
-						$array[$key] = (unset) $value;
+						$value = NULL;
+						$array[$key] = $value;
 						break;
 				}
 			}
@@ -161,7 +162,7 @@ class FW
 	 * @param {string} key Název klíče
 	 * @param {boolean} desc Sestupné řazení
 	 */
-	public static function arrByKey($key, $desc) {
+	public static function arrByKey($key, $desc = false) {
 		return function ($a, $b) use ($key, $desc) {
 			if ($a[$key] == $b[$key]) return 0;
 			if ($desc) {
@@ -225,7 +226,7 @@ class FW
 	/**
 	 * Posílá statusy do HTTP hlaviček
 	 */
-	public function httpStatus($code) {
+	public static function httpStatus($code) {
 		switch ($code) {
 			case 301:
 				$status = "Moved Permanently";
@@ -260,7 +261,7 @@ class FW
 	 * Vrati aktualni url
 	 * @return string Url
 	 */
-	public function currentUrl($path = true) {
+	public static function currentUrl($path = true) {
 		$protocol = isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on" ? "https" : "http";
 		$host = $_SERVER["SERVER_NAME"];
 		$port = $_SERVER["SERVER_PORT"];
@@ -278,6 +279,44 @@ class FW
 		}
 
 		return $protocol."://".$host.$port.$path;   
+	}
+
+	/**
+	 * Zkonvertuje <br /> na nové řádky
+	 *
+	 * @param {string} Řetězec, který budeme modifikovat
+	 * @return {string} Řetězec s novými řádky namísto <br />
+	 */
+	public static function br2nl($str) {
+		return preg_replace('/\<br(\s*)?\/?\>/i', "\n", $str);
+	}
+
+	/**
+	 * Zpracuje text z textarea pro uložení do DB
+	 * 
+	 * @param {string} Vstupní řetězec
+	 * @return {string} Výstupní řetězec
+	 */
+	public static function nl2br($text) {
+		return trim(preg_replace('/(\v|\s)+/', ' ', nl2br($text)));
+	}
+
+	/**
+	 * Vyparsuje relativní tvar URL z absolutního tvaru URL
+	 * 
+	 * @param {string} $url URL adresa
+	 * @return {string} Relativní tvar URL
+	 */
+	public static function parseRelativeUrl($url) {
+		$proto = "";
+		if (substr($url, 0, 7) == "http://") $proto = "http://";
+		if (substr($url, 0, 8) == "https://") $proto = "https://";
+		$domain = parse_url($url, PHP_URL_HOST);
+		$urlRoot = $proto . $domain;
+		if ($proto) {
+			$urlRoot = $proto . $domain . "/";
+		}
+		return substr($url, strlen($urlRoot));
 	}
 }
 ?>
