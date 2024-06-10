@@ -33,7 +33,7 @@ for CFG in $CONFIG_FILES; do
     sed -e "s,__DOMAIN__,$DOMAIN," \
         -e "s,__PROJECT__,$PROJECT," \
         -e "s,__TARGET__,$TARGET," \
-        -e "s,__SOURCE__,$TARGET," \
+        -e "s,__SOURCE__,$SOURCE," \
         -e "s,__HOST__,$HOST," \
         -e "s,__EMAIL__,$EMAIL," \
         $CFG > $TARGET/conf/$(basename $CFG)
