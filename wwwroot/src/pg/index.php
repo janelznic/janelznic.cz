@@ -32,12 +32,13 @@ $refs = json_decode($refJSON, true);
 
 foreach ($refs as $k => $v) {
 	if ($refs[$k]["type"] != "banner") {
-		for ($i=0; count($supportedLangs)>$i; $i++) {
-			$thisLang = $supportedLangs[$i];
-			foreach ($refs[$k][$lang] as $index => $value) {
-				$refs[$k][$index] = $value;
+		foreach ($supportedLangs as $thisLang) {
+			if (isset($refs[$k][$thisLang])) {
+				foreach ($refs[$k][$thisLang] as $index => $value) {
+					$refs[$k][$index] = $value;
+				}
+				unset($refs[$k][$thisLang]);
 			}
-			unset($refs[$k][$thisLang]);
 		}
 	}
 }
@@ -49,13 +50,13 @@ $data["references_json"] = json_encode($refs);
 
 # Slovník
 if ($lang == "cs") {
-	$dictFile = "czech.dict.php";
+	$dictFile = "config/czech.dict.php";
 } else {
-	$dictFile = "english.dict.php";
+	$dictFile = "config/english.dict.php";
 }
 
 # Vygenerování šablony
 //$page = new Pagegen("index.html", $data, array("dict" => $dictFile, "debug" => true));
-$page = new Pagegen("index.html", $data, array("dict" => $dictFile, "config" => "templates.config.php"));
+$page = new Pagegen("index.html", $data, array("dict" => $dictFile));
 exit;
 ?>
