@@ -33,7 +33,7 @@ $dict = array(
 
 	# Portfolio
 	"portf_title" => "Portfolio",
-	"portf_subtitle" => "I have professional experience more than %d years in IT, %d years in international environment, %d years in middle and higher management&hellip;",
+	"portf_subtitle" => "I have professional experience more than %d years in IT, %d years in international environment, %d years in technology management&hellip;",
 	"portf_web_frontend_title" => "Web frontend",
 	"portf_web_frontend" => array(
 		"HTML(5), CSS(3), Less/Sass",

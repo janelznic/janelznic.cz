@@ -2,23 +2,23 @@
 	"inu": {
 		"type": "big",
 		"cs": {
-			"title": "Head of Software Development",
+			"title": "Head of Engineering",
 			"description": "Fintech start-up, dceřinná společnost skupiny Creditas. Rozvoj a řízení několika týmů v rámci vývojového oddělení.",
-			"client": "INU.COM a.s.",
+			"client": "MaxInvest a.s.",
 			"scope": "Management, Architektura, Vývoj",
 			"technologies": "React Native, Go, PostgreSQL, Node.js, TypeScript",
 			"date": "02/2022-doposud",
-			"link": ["https://inu.com"],
+			"link": ["https://www.maxinvestapp.eu/"],
 			"image": "inu.jpg"
 		},
 		"en": {
-			"title": "Head of Software Development",
+			"title": "Head of Engineering",
 			"description": "Fintech company, subsidiary of Creditas Group. Managing multiple teams in software development department.",
-			"client": "INU.COM a.s.",
+			"client": "MaxInvest a.s.",
 			"scope": "Management, Architecture, Vývoj",
 			"technologies": "React Native, Go, PostgreSQL, Node.js, TypeScript",
 			"date": "02/2022–present",
-			"link": ["https://inu.com"],
+			"link": ["https://www.maxinvestapp.eu/"],
 			"image": "inu.jpg"
 		}
 	},
