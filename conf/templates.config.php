@@ -1,4 +1,7 @@
 <?php
+# Template config
+#
+
 # Debug
 $dict["debugMode"] = 0;
 
