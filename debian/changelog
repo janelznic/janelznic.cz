@@ -1,3 +1,9 @@
+janelznic-web (2.8.1) stable; urgency=low
+
+  * CV updated
+
+ -- Jan Elznic <jan@elznic.com>  Tue, 09 Sep 2025 17:35:00 +0100
+
 janelznic-web (2.8) stable; urgency=low
 
   * PHP 8.2 compatible
