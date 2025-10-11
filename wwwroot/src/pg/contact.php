@@ -20,31 +20,36 @@ if (count($emptyFields)) {
 		$status = 400;
 		$err = "emailNotValid";
 	} else {
-		if ($form["code"] != "idclip") {
-			# Access denied (antiSPAM)
-			header("HTTP/1.1 403 Forbidden");
-			exit;
-			$status = 403;
-			$err = "spam";
-		} else {
-			# Send email
-			$fromEmail = Config::get("MAILaddrFrom");
-			$subject = Config::get("MAILsubjectCont") . " " . $_POST["name"];
-			$message = $_POST["message"];
-			$to = Config::get("MAILtoAddr");
+    header("HTTP/1.1 403 Forbidden");
+    exit;
+    $status = 403;
+    $err = "spam";
 
-			$headers = "From: " . $fromEmail . "\r\n" .
-				"Reply-To: " . $fromEmail . "\r\n" .
-				"X-Mailer: PHP/" . phpversion();
-			$headers .= 'MIME-Version: 1.0' . "\r\n";
-			$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+		// if ($form["code"] != "idclip") {
+		// 	# Access denied (antiSPAM)
+		// 	header("HTTP/1.1 403 Forbidden");
+		// 	exit;
+		// 	$status = 403;
+		// 	$err = "spam";
+		// } else {
+		// 	# Send email
+		// 	$fromEmail = Config::get("MAILaddrFrom");
+		// 	$subject = Config::get("MAILsubjectCont") . " " . $_POST["name"];
+		// 	$message = $_POST["message"];
+		// 	$to = Config::get("MAILtoAddr");
 
-			if (mail($to, $subject, $message, $headers)) {
-				$status = 200;
-			} else {
-				$status = 500;
-			}
-		}
+		// 	$headers = "From: " . $fromEmail . "\r\n" .
+		// 		"Reply-To: " . $fromEmail . "\r\n" .
+		// 		"X-Mailer: PHP/" . phpversion();
+		// 	$headers .= 'MIME-Version: 1.0' . "\r\n";
+		// 	$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+
+		// 	if (mail($to, $subject, $message, $headers)) {
+		// 		$status = 200;
+		// 	} else {
+		// 		$status = 500;
+		// 	}
+		// }
 	}
 }
 
