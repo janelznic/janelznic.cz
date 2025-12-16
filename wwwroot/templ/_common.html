@@ -23,5 +23,11 @@
 <meta name="theme-color" content="#ffffff" />
 
 <?php for($i=0; count($jsFiles)>$i; $i++):?>
-	<script src="/js/<?php echo $jsFiles[$i];?>?<?php echo $dict["staticVersion"];?>"></script>
+	<script src="/js/<?php echo $jsFiles[$i];?>?<?php echo $dict['staticVersion'];?>"></script>
 <?php endfor;?>
+<?php if ($dict["devMode"] == 1): ?>
+	<script src="http://chatbot.test/widget.js" defer></script>
+<?php else: ?>
+	<script src="https://chat.janelznic.cz/widget.js" defer></script>
+<?php endif; ?>
+

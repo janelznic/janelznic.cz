@@ -21,6 +21,11 @@
 	var contactForm = new ContactForm(flashMessage);
 	var animations = new Animations();
 	var preloader = new Preloader();
+
+	window.addEventListener('load', () => {
+		new window.ChatWidget({ defaultLanguage: '<?php echo $lang; ?>', apiBase: '/api' });
+	});
+
 </script>
 
 <!-- Google Analytics -->
